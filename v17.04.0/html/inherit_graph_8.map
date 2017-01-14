@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classwx_ex_dialog.html" title="Offers a general dialog, with a separated button sizer at the bottom. " alt="" coords="5,61,96,87"/>
+<area shape="rect" id="node2" href="$classwx_ex_item_template_dialog.html" title="Offers a dialog template to set several items. " alt="" coords="144,5,346,31"/>
+<area shape="rect" id="node3" href="$classwx_ex_item_template_dialog.html" title="wxExItemTemplateDialog\l\&lt; wxExItem \&gt;" alt="" coords="160,55,331,93"/>
+<area shape="rect" id="node5" href="$classwx_ex_s_t_c_entry_dialog.html" title="Offers an wxExSTC as a dialog (like wxTextEntryDialog). " alt="" coords="171,117,320,143"/>
+<area shape="rect" id="node4" href="$classwx_ex_item_dialog.html" title="Offers an item dialog. " alt="" coords="394,61,511,87"/>
+</map>
