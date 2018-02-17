@@ -1,0 +1,6 @@
+<map id="wxExDir" name="wxExDir">
+<area shape="rect" id="node3" href="$classwx_ex_dir_open_file.html" title="Allows you to easily open all files on specified path. " alt="" coords="5,155,139,181"/>
+<area shape="rect" id="node4" href="$classwx_ex_dir_tool.html" title="Offers a wxExDir with tool support. " alt="" coords="163,155,267,181"/>
+<area shape="rect" id="node5" href="$classwx_ex_dir_with_list_view.html" title="Offers a wxExDir with reporting to a listview. " alt="" coords="291,155,453,181"/>
+<area shape="rect" id="node2" href="$classwx_ex_interruptable.html" title="Offers methods to start, stop things. " alt="" coords="144,5,285,32"/>
+</map>
