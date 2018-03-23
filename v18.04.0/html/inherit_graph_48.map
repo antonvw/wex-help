@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classwx_ex_s_t_c_data.html" title="Offers user data to be used by wxExSTC. " alt="" coords="5,5,119,32"/>
+<area shape="rect" id="node1" href="$classwx_ex_s_t_c.html" title="Offers a styled text ctrl with: " alt="" coords="5,5,88,32"/>
+<area shape="rect" id="node2" href="$classwx_ex_shell.html" title="This class offers a wxExSTC with support for commands. " alt="" coords="136,5,225,32"/>
 </map>

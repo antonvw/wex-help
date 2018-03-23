@@ -80,29 +80,32 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwx_ex_menu_command.html#ab631689fc0c948a895b3e1b1b6c168db">wxExMenuCommand</a> ()</td></tr>
 <tr class="memdesc:ab631689fc0c948a895b3e1b1b6c168db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. <br /></td></tr>
 <tr class="separator:ab631689fc0c948a895b3e1b1b6c168db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a811f2eac900c1b40a29740f440904e7b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwx_ex_menu_command.html#a811f2eac900c1b40a29740f440904e7b">wxExMenuCommand</a> (const std::string &amp;command, const std::string &amp;type=std::string(), const std::string &amp;submenu=std::string(), const std::string &amp;subcommand=std::string())</td></tr>
-<tr class="memdesc:a811f2eac900c1b40a29740f440904e7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a811f2eac900c1b40a29740f440904e7b">More...</a><br /></td></tr>
-<tr class="separator:a811f2eac900c1b40a29740f440904e7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7452b5088439182a5f3ec44c3e6171ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwx_ex_menu_command.html#a7452b5088439182a5f3ec44c3e6171ab">wxExMenuCommand</a> (const std::string &amp;command, const std::string &amp;type=std::string(), const std::string &amp;submenu=std::string(), const std::string &amp;subcommand=std::string(), const std::string &amp;flags=std::string())</td></tr>
+<tr class="memdesc:a7452b5088439182a5f3ec44c3e6171ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a7452b5088439182a5f3ec44c3e6171ab">More...</a><br /></td></tr>
+<tr class="separator:a7452b5088439182a5f3ec44c3e6171ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1e05f39e9f810211753b6de9fa86734"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwx_ex_menu_command.html#ab1e05f39e9f810211753b6de9fa86734">AskFlags</a> () const</td></tr>
+<tr class="memdesc:ab1e05f39e9f810211753b6de9fa86734"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if flags are requested for this command.  <a href="#ab1e05f39e9f810211753b6de9fa86734">More...</a><br /></td></tr>
+<tr class="separator:ab1e05f39e9f810211753b6de9fa86734"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a543446cf566f1ae34fa6ab9d0367fbbc"><td class="memItemLeft" align="right" valign="top"><a id="a543446cf566f1ae34fa6ab9d0367fbbc"></a>
 const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwx_ex_menu_command.html#a543446cf566f1ae34fa6ab9d0367fbbc">GetCommand</a> (bool include_subcommand=true, bool include_accelerators=false) const</td></tr>
 <tr class="memdesc:a543446cf566f1ae34fa6ab9d0367fbbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the command (and subcommand and accelerators if necessary). <br /></td></tr>
 <tr class="separator:a543446cf566f1ae34fa6ab9d0367fbbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab34fc24318630758c8518ee342ed2d44"><td class="memItemLeft" align="right" valign="top"><a id="ab34fc24318630758c8518ee342ed2d44"></a>
+const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwx_ex_menu_command.html#ab34fc24318630758c8518ee342ed2d44">GetFlags</a> () const</td></tr>
+<tr class="memdesc:ab34fc24318630758c8518ee342ed2d44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the flags. <br /></td></tr>
+<tr class="separator:ab34fc24318630758c8518ee342ed2d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b1f52e8075c559ffc38f21d96998472"><td class="memItemLeft" align="right" valign="top"><a id="a6b1f52e8075c559ffc38f21d96998472"></a>
 const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwx_ex_menu_command.html#a6b1f52e8075c559ffc38f21d96998472">GetSubMenu</a> () const</td></tr>
 <tr class="memdesc:a6b1f52e8075c559ffc38f21d96998472"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the submenu. <br /></td></tr>
 <tr class="separator:a6b1f52e8075c559ffc38f21d96998472"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ef9b33048f3970994e277c1408cd4e4"><td class="memItemLeft" align="right" valign="top"><a id="a4ef9b33048f3970994e277c1408cd4e4"></a>
-long&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwx_ex_menu_command.html#a4ef9b33048f3970994e277c1408cd4e4">GetType</a> () const</td></tr>
-<tr class="memdesc:a4ef9b33048f3970994e277c1408cd4e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type. <br /></td></tr>
-<tr class="separator:a4ef9b33048f3970994e277c1408cd4e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b4c8f0194b2af91f3720c7c5eed61d0"><td class="memItemLeft" align="right" valign="top"><a id="a9b4c8f0194b2af91f3720c7c5eed61d0"></a>
+auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwx_ex_menu_command.html#a9b4c8f0194b2af91f3720c7c5eed61d0">GetType</a> () const</td></tr>
+<tr class="memdesc:a9b4c8f0194b2af91f3720c7c5eed61d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the type. <br /></td></tr>
+<tr class="separator:a9b4c8f0194b2af91f3720c7c5eed61d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37ce5bce92eef3716d5903fbd7706cd1"><td class="memItemLeft" align="right" valign="top"><a id="a37ce5bce92eef3716d5903fbd7706cd1"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwx_ex_menu_command.html#a37ce5bce92eef3716d5903fbd7706cd1">IsHelp</a> () const</td></tr>
 <tr class="memdesc:a37ce5bce92eef3716d5903fbd7706cd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this is a help like command. <br /></td></tr>
 <tr class="separator:a37ce5bce92eef3716d5903fbd7706cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16a5ceed43768693321296f37c355f28"><td class="memItemLeft" align="right" valign="top"><a id="a16a5ceed43768693321296f37c355f28"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwx_ex_menu_command.html#a16a5ceed43768693321296f37c355f28">UseFlags</a> () const</td></tr>
-<tr class="memdesc:a16a5ceed43768693321296f37c355f28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if flags can be used for this command. <br /></td></tr>
-<tr class="separator:a16a5ceed43768693321296f37c355f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf4c8292c7697f006524dd9f37292a6d"><td class="memItemLeft" align="right" valign="top"><a id="adf4c8292c7697f006524dd9f37292a6d"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwx_ex_menu_command.html#adf4c8292c7697f006524dd9f37292a6d">UseSubcommand</a> () const</td></tr>
 <tr class="memdesc:adf4c8292c7697f006524dd9f37292a6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a subcommand can be used for this command. <br /></td></tr>
@@ -139,8 +142,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a811f2eac900c1b40a29740f440904e7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a811f2eac900c1b40a29740f440904e7b">&#9670;&nbsp;</a></span>wxExMenuCommand()</h2>
+<a id="a7452b5088439182a5f3ec44c3e6171ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7452b5088439182a5f3ec44c3e6171ab">&#9670;&nbsp;</a></span>wxExMenuCommand()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -167,7 +170,13 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>subcommand</em> = <code>std::string()</code>&#160;</td>
+          <td class="paramname"><em>subcommand</em> = <code>std::string()</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>flags</em> = <code>std::string()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -191,9 +200,39 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </td></tr>
     <tr><td class="paramname">submenu</td><td>The submenu member is set to specified submenu if not empty, otherwise to specified subcommand. </td></tr>
     <tr><td class="paramname">subcommand</td><td>The subcommand (used as submenu, but also used for executing). </td></tr>
+    <tr><td class="paramname">flags</td><td>The flags. </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab1e05f39e9f810211753b6de9fa86734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1e05f39e9f810211753b6de9fa86734">&#9670;&nbsp;</a></span>AskFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool wxExMenuCommand::AskFlags </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if flags are requested for this command. </p>
+<p>All commands, except help, and if the flags are present in menus.xml, support flags. </p>
 
 </div>
 </div>

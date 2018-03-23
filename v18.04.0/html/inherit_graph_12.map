@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classwx_ex_ex_command.html" title="Offers a command to be used by ex Command. " alt="" coords="5,5,145,32"/>
+<area shape="rect" id="node1" href="$classwx_ex_ex.html" title="Offers a class that adds ex editor to wxExSTC. " alt="" coords="5,5,79,32"/>
+<area shape="rect" id="node2" href="$classwx_ex_vi.html" title="Offers a class that extends wxExSTC with vi behaviour. " alt="" coords="127,5,197,32"/>
 </map>
