@@ -1,0 +1,4 @@
+<map id="wex::options_toolbar" name="wex::options_toolbar">
+<area shape="rect" id="node1" title="Offers a options toolbar, containing checkboxes." alt="" coords="5,80,164,107"/>
+<area shape="rect" id="node2" href="$classwex_1_1toolbar.html" title="Offers a toolbar together with stock art." alt="" coords="33,5,136,32"/>
+</map>

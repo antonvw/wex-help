@@ -1,0 +1,7 @@
+<map id="wex::interruptable" name="wex::interruptable">
+<area shape="rect" id="node1" title="Offers methods to start, stop things." alt="" coords="162,5,303,32"/>
+<area shape="rect" id="node2" href="$classwex_1_1dir.html" title="Offers find_files method." alt="" coords="195,80,270,107"/>
+<area shape="rect" id="node3" href="$classwex_1_1listview__dir.html" title="Offers a dir with reporting to a listview." alt="" coords="5,155,137,181"/>
+<area shape="rect" id="node4" href="$classwex_1_1open__file__dir.html" title="Allows you to easily open all files on specified path." alt="" coords="162,155,303,181"/>
+<area shape="rect" id="node5" href="$classwex_1_1tool__dir.html" title="Offers a dir with tool support." alt="" coords="327,155,434,181"/>
+</map>

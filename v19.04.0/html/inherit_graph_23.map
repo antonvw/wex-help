@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classwex_1_1interruptable.html" title="Offers methods to start, stop things." alt="" coords="5,56,147,83"/>
+<area shape="rect" id="node2" href="$classwex_1_1dir.html" title="Offers find_files method." alt="" coords="195,56,269,83"/>
+<area shape="rect" id="node3" href="$classwex_1_1listview__dir.html" title="Offers a dir with reporting to a listview." alt="" coords="322,5,454,32"/>
+<area shape="rect" id="node4" href="$classwex_1_1open__file__dir.html" title="Allows you to easily open all files on specified path." alt="" coords="317,56,459,83"/>
+<area shape="rect" id="node5" href="$classwex_1_1tool__dir.html" title="Offers a dir with tool support." alt="" coords="335,107,441,133"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="wex::listview" name="wex::listview">
+<area shape="rect" id="node1" title="Adds printing, popup menu, images, columns and items to wxListView." alt="" coords="31,5,139,32"/>
+<area shape="rect" id="node2" href="$classwex_1_1history__listview.html" title="Adds a history_frame to listview." alt="" coords="5,80,165,107"/>
+<area shape="rect" id="node3" href="$classwex_1_1listview__file.html" title="Combines history_listview and file, giving you a list control with file synchronization support." alt="" coords="17,155,153,181"/>
+</map>

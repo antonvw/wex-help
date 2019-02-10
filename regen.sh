@@ -7,7 +7,7 @@ export WXEXTENSION=${HOME}/wxExtension/extension
 current=$(pwd)
 
 # version directory where pages are generated
-cd v18.04.0
+cd v19.04.0
 
 # now run doxygen
 doxygen ../Doxyfile
