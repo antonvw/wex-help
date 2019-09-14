@@ -2,14 +2,15 @@
 // Name:      intro.h
 // Purpose:   Interface file containing Doxyfile reference for mainpage
 // Author:    Anton van Wezenbeek
-// Copyright: (c) 2016 Anton van Wezenbeek
+// Copyright: (c) 2019 Anton van Wezenbeek
 ////////////////////////////////////////////////////////////////////////////////
 
 /*!
-\mainpage wxExtension Main Page
+\mainpage wex Main Page
 
-This is a <a href="https://antonvw@github.com/antonvw/wxExtension.git">public source code library</a>
-containing a collection of wxWidgets extension classes.
+This is a <a href="https://antonvw@github.com/antonvw/wex.git">public source code library</a>
+containing a collection of classes to support vi and ex functionality
+in wxStyledTextCtrl derived classes.
 
 <p>
 It uses <a href="http://docs.wxwidgets.org/3.1/">wxWidgets 3.1</a> 
@@ -21,5 +22,5 @@ There are also some classes to support database programming using the
 
 <p>
 For build instructions see 
-<a href="https://github.com/antonvw/wxExtension/blob/v17.04.0/README.md">README</a>.
+<a href="https://github.com/antonvw/wex/blob/v19.10.0/README.md">README</a>.
 */

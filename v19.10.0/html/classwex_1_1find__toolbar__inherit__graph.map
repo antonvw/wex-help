@@ -1,0 +1,4 @@
+<map id="wex::find_toolbar" name="wex::find_toolbar">
+<area shape="rect" id="node1" title="Offers a find toolbar, containing a find ctrl, up and down arrows and checkboxes." alt="" coords="5,79,127,104"/>
+<area shape="rect" id="node2" href="$classwex_1_1toolbar.html" title="Offers a toolbar together with stock art." alt="" coords="20,5,113,31"/>
+</map>

@@ -1,13 +1,13 @@
 #!/bin/bash
-# regenerate doxy pages for next wxExtension version
+# regenerate doxy pages for next wex version
 
-# location where wxExtension repository resides
-export WXEXTENSION=${HOME}/wxExtension/extension
+# location where wex repository resides
+export WEX=${HOME}/wex/src
 
 current=$(pwd)
 
 # version directory where pages are generated
-cd v19.04.0
+cd v19.10.0
 
 # now run doxygen
 doxygen ../Doxyfile
