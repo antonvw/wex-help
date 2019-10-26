@@ -1,0 +1,5 @@
+<map id="wex::open_file_dir" name="wex::open_file_dir">
+<area shape="rect" id="node1" title="Allows you to easily open all files on specified path." alt="" coords="5,152,134,177"/>
+<area shape="rect" id="node2" href="$classwex_1_1dir.html" title="Offers find_files method." alt="" coords="36,79,103,104"/>
+<area shape="rect" id="node3" href="$classwex_1_1interruptable.html" title="Offers methods to start, stop things." alt="" coords="6,5,133,31"/>
+</map>

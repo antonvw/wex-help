@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classwex_1_1file.html" title="Offers several methods to read / write files." alt="" coords="183,55,252,80"/>
+<area shape="rect" id="node2" href="$classwex_1_1report_1_1file.html" title="Combines report::listview and file, giving you a list control with file synchronization support." alt="" coords="334,5,446,31"/>
+<area shape="rect" id="node3" href="$classwex_1_1stc__file.html" title="Adds file read and write to stc." alt="" coords="343,55,437,80"/>
+<area shape="rect" id="node4" href="$classwex_1_1listview.html" title="Adds printing, popup menu, images, columns and items to wxListView." alt="" coords="5,5,101,31"/>
+<area shape="rect" id="node5" href="$classwex_1_1report_1_1listview.html" title="Adds a report::frame to listview." alt="" coords="149,5,286,31"/>
+</map>
