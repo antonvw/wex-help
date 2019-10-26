@@ -22,5 +22,5 @@ There are also some classes to support database programming using the
 
 <p>
 For build instructions see 
-<a href="https://github.com/antonvw/wex/blob/v19.10.0/README.md">README</a>.
+<a href="https://github.com/antonvw/wex/blob/v20.04.0/README.md">README</a>.
 */

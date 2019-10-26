@@ -1,1 +1,1 @@
-This repository contains the help files for wxExtension.
+This repository contains the help files for wex.
