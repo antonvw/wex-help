@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classwex_1_1menu__item.html" title="Offers a single menu item." alt="" coords="5,5,124,31"/>
+<area shape="rect" id="node1" href="$classwex_1_1menu__command.html" title="This class contains a single menu command." alt="" coords="5,5,157,31"/>
+<area shape="rect" id="node2" href="$classwex_1_1vcs__command.html" title="This class contains a single vcs command." alt="" coords="205,5,344,31"/>
 </map>

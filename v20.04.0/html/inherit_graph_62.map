@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classwex_1_1textctrl__input.html" title="Offers a class to relate text control to values with iterators." alt="" coords="5,5,133,31"/>
+<area shape="rect" id="node1" href="$classwex_1_1stream.html" title="Adds run_tool methods and statistics to a file stream." alt="" coords="5,5,99,31"/>
+<area shape="rect" id="node2" href="$classwex_1_1report_1_1stream.html" title="Offers a stream with reporting to a listview." alt="" coords="147,5,282,31"/>
 </map>
