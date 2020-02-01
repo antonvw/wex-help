@@ -46,7 +46,6 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="classwex_1_1statusbar-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">wex::statusbar Class Reference</div>  </div>
@@ -69,32 +68,25 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1statusbar.html#a42c0f943c567e07afbcf8dd9a25f3a6d">~statusbar</a> ()</td></tr>
 <tr class="memdesc:a42c0f943c567e07afbcf8dd9a25f3a6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. <br /></td></tr>
 <tr class="separator:a42c0f943c567e07afbcf8dd9a25f3a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49995877036fe778c0e2e8e07fb501fb"><td class="memItemLeft" align="right" valign="top"><a id="a49995877036fe778c0e2e8e07fb501fb"></a>
-const <a class="el" href="classwex_1_1statusbar__pane.html">statusbar_pane</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1statusbar.html#a49995877036fe778c0e2e8e07fb501fb">get_field</a> (int n) const</td></tr>
-<tr class="memdesc:a49995877036fe778c0e2e8e07fb501fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classwex_1_1statusbar__pane.html" title="This class defines our statusbar panes, used by wex::frame::setup_statusbar.">statusbar_pane</a> representing the n-th pane. <br /></td></tr>
-<tr class="separator:a49995877036fe778c0e2e8e07fb501fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fc75fc09facd7b2f9ce33b0ca4f9a24"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1statusbar.html#a0fc75fc09facd7b2f9ce33b0ca4f9a24">get_statustext</a> (const std::string &amp;field) const</td></tr>
-<tr class="memdesc:a0fc75fc09facd7b2f9ce33b0ca4f9a24"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the status text on specified field.  <a href="classwex_1_1statusbar.html#a0fc75fc09facd7b2f9ce33b0ca4f9a24">More...</a><br /></td></tr>
-<tr class="separator:a0fc75fc09facd7b2f9ce33b0ca4f9a24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c3fa646507229ece5bc052a0b4b40e1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1statusbar.html#a9c3fa646507229ece5bc052a0b4b40e1">set_statustext</a> (const std::string &amp;text, const std::string &amp;field=std::string())</td></tr>
-<tr class="memdesc:a9c3fa646507229ece5bc052a0b4b40e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets text on specified field.  <a href="classwex_1_1statusbar.html#a9c3fa646507229ece5bc052a0b4b40e1">More...</a><br /></td></tr>
-<tr class="separator:a9c3fa646507229ece5bc052a0b4b40e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86ca0da01b287676035979235b84b426"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1statusbar.html#a86ca0da01b287676035979235b84b426">show_field</a> (const std::string &amp;field, bool show)</td></tr>
-<tr class="memdesc:a86ca0da01b287676035979235b84b426"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows or hides the field.  <a href="classwex_1_1statusbar.html#a86ca0da01b287676035979235b84b426">More...</a><br /></td></tr>
-<tr class="separator:a86ca0da01b287676035979235b84b426"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affe966b1851002483840648774f272e5"><td class="memItemLeft" align="right" valign="top"><a id="affe966b1851002483840648774f272e5"></a>
+const <a class="el" href="classwex_1_1statusbar__pane.html">statusbar_pane</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1statusbar.html#affe966b1851002483840648774f272e5">get_pane</a> (int n) const</td></tr>
+<tr class="memdesc:affe966b1851002483840648774f272e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the <a class="el" href="classwex_1_1statusbar__pane.html" title="This class defines our statusbar panes, used by wex::frame::setup_statusbar.">statusbar_pane</a> representing the n-th pane. <br /></td></tr>
+<tr class="separator:affe966b1851002483840648774f272e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77f204981afb4a2ea3dff00271d8b5c2"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1statusbar.html#a77f204981afb4a2ea3dff00271d8b5c2">get_statustext</a> (const std::string &amp;pane) const</td></tr>
+<tr class="memdesc:a77f204981afb4a2ea3dff00271d8b5c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the status text on specified pane.  <a href="classwex_1_1statusbar.html#a77f204981afb4a2ea3dff00271d8b5c2">More...</a><br /></td></tr>
+<tr class="separator:a77f204981afb4a2ea3dff00271d8b5c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd01cc2f587e4c8b58c69bd26f74a676"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1statusbar.html#abd01cc2f587e4c8b58c69bd26f74a676">set_statustext</a> (const std::string &amp;text, const std::string &amp;pane=std::string())</td></tr>
+<tr class="memdesc:abd01cc2f587e4c8b58c69bd26f74a676"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets text on specified pane.  <a href="classwex_1_1statusbar.html#abd01cc2f587e4c8b58c69bd26f74a676">More...</a><br /></td></tr>
+<tr class="separator:abd01cc2f587e4c8b58c69bd26f74a676"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b5c935c62b60432588112f97f3ca71a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1statusbar.html#a6b5c935c62b60432588112f97f3ca71a">show_pane</a> (const std::string &amp;pane, bool show)</td></tr>
+<tr class="memdesc:a6b5c935c62b60432588112f97f3ca71a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows or hides the pane.  <a href="classwex_1_1statusbar.html#a6b5c935c62b60432588112f97f3ca71a">More...</a><br /></td></tr>
+<tr class="separator:a6b5c935c62b60432588112f97f3ca71a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ab8e9a04384447fba82c41536b8c64198"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classwex_1_1statusbar.html">statusbar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1statusbar.html#ab8e9a04384447fba82c41536b8c64198">setup</a> (<a class="el" href="classwex_1_1frame.html">frame</a> *<a class="el" href="classwex_1_1frame.html">frame</a>, const std::vector&lt; <a class="el" href="classwex_1_1statusbar__pane.html">statusbar_pane</a> &gt; &amp;panes, long <a class="el" href="classwex_1_1style.html">style</a>=wxST_SIZEGRIP, const std::string &amp;name=&quot;statusBar&quot;)</td></tr>
 <tr class="memdesc:ab8e9a04384447fba82c41536b8c64198"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up the statusbar.  <a href="classwex_1_1statusbar.html#ab8e9a04384447fba82c41536b8c64198">More...</a><br /></td></tr>
 <tr class="separator:ab8e9a04384447fba82c41536b8c64198"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a9806aeb54bb60c1096d4830a1894a5f5"><td class="memItemLeft" align="right" valign="top"><a id="a9806aeb54bb60c1096d4830a1894a5f5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1statusbar.html#a9806aeb54bb60c1096d4830a1894a5f5">on_mouse</a> (wxMouseEvent &amp;event)</td></tr>
-<tr class="memdesc:a9806aeb54bb60c1096d4830a1894a5f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">React on some mouse events line button down, double click and moving over. <br /></td></tr>
-<tr class="separator:a9806aeb54bb60c1096d4830a1894a5f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Offers a status bar that calls virtual methods from <a class="el" href="classwex_1_1frame.html" title="Offers a frame with easy statusbar methods, find/replace, and allows for file dropping.">wex::frame</a>, and allows you to address panes by name instead of number. </p>
@@ -145,8 +137,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0fc75fc09facd7b2f9ce33b0ca4f9a24"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fc75fc09facd7b2f9ce33b0ca4f9a24">&#9670;&nbsp;</a></span>get_statustext()</h2>
+<a id="a77f204981afb4a2ea3dff00271d8b5c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77f204981afb4a2ea3dff00271d8b5c2">&#9670;&nbsp;</a></span>get_statustext()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -155,19 +147,19 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
           <td class="memname">const std::string wex::statusbar::get_statustext </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>field</em></td><td>)</td>
+          <td class="paramname"><em>pane</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the status text on specified field. </p>
-<p>Returns empty string if field does not exist or is not shown. </p>
+<p>Returns the status text on specified pane. </p>
+<p>Returns empty string if pane does not exist or is not shown. </p>
 
 </div>
 </div>
-<a id="a9c3fa646507229ece5bc052a0b4b40e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c3fa646507229ece5bc052a0b4b40e1">&#9670;&nbsp;</a></span>set_statustext()</h2>
+<a id="abd01cc2f587e4c8b58c69bd26f74a676"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd01cc2f587e4c8b58c69bd26f74a676">&#9670;&nbsp;</a></span>set_statustext()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182,7 +174,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>field</em> = <code>std::string()</code>&#160;</td>
+          <td class="paramname"><em>pane</em> = <code>std::string()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -192,12 +184,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
       </table>
 </div><div class="memdoc">
 
-<p>Sets text on specified field. </p>
-<p>Returns false if field does not exist or is not shown. </p>
+<p>Sets text on specified pane. </p>
+<p>Returns false if pane does not exist or is not shown. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">text</td><td>text </td></tr>
-    <tr><td class="paramname">field</td><td>field, default field text pane, </td></tr>
+    <tr><td class="paramname">pane</td><td>pane, default pane text pane, </td></tr>
   </table>
   </dd>
 </dl>
@@ -259,17 +251,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 </div>
 </div>
-<a id="a86ca0da01b287676035979235b84b426"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86ca0da01b287676035979235b84b426">&#9670;&nbsp;</a></span>show_field()</h2>
+<a id="a6b5c935c62b60432588112f97f3ca71a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b5c935c62b60432588112f97f3ca71a">&#9670;&nbsp;</a></span>show_pane()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool wex::statusbar::show_field </td>
+          <td class="memname">bool wex::statusbar::show_pane </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>field</em>, </td>
+          <td class="paramname"><em>pane</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -285,8 +277,8 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
       </table>
 </div><div class="memdoc">
 
-<p>Shows or hides the field. </p>
-<p>Returns true if field visibility actually changed. </p>
+<p>Shows or hides the pane. </p>
+<p>Returns true if pane visibility actually changed. </p>
 
 </div>
 </div>

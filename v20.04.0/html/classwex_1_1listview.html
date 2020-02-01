@@ -113,6 +113,10 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a19f81c5f157fafd742f0d77d743b9ddd"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1listview.html#a19f81c5f157fafd742f0d77d743b9ddd">insert_item</a> (const std::vector&lt; std::string &gt; &amp;<a class="el" href="classwex_1_1item.html">item</a>)</td></tr>
 <tr class="memdesc:a19f81c5f157fafd742f0d77d743b9ddd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts item with provided columns.  <a href="classwex_1_1listview.html#a19f81c5f157fafd742f0d77d743b9ddd">More...</a><br /></td></tr>
 <tr class="separator:a19f81c5f157fafd742f0d77d743b9ddd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a581252758d6e09c494b595dc35d22068"><td class="memItemLeft" align="right" valign="top"><a id="a581252758d6e09c494b595dc35d22068"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1listview.html#a581252758d6e09c494b595dc35d22068">load</a> (const std::list&lt; std::string &gt; &amp;l)</td></tr>
+<tr class="memdesc:a581252758d6e09c494b595dc35d22068"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads listview from list. <br /></td></tr>
+<tr class="separator:a581252758d6e09c494b595dc35d22068"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf2415e30cb54baa9bb7305cca4961a9"><td class="memItemLeft" align="right" valign="top"><a id="adf2415e30cb54baa9bb7305cca4961a9"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1listview.html#adf2415e30cb54baa9bb7305cca4961a9">print</a> ()</td></tr>
 <tr class="memdesc:adf2415e30cb54baa9bb7305cca4961a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints the list. <br /></td></tr>
@@ -121,6 +125,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1listview.html#a1b904e36033210bed93924fc4b94baa5">print_preview</a> ()</td></tr>
 <tr class="memdesc:a1b904e36033210bed93924fc4b94baa5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Previews the list. <br /></td></tr>
 <tr class="separator:a1b904e36033210bed93924fc4b94baa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a583a9def16b6dbf237a63c4650e81164"><td class="memItemLeft" align="right" valign="top"><a id="a583a9def16b6dbf237a63c4650e81164"></a>
+const std::list&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1listview.html#a583a9def16b6dbf237a63c4650e81164">save</a> () const</td></tr>
+<tr class="memdesc:a583a9def16b6dbf237a63c4650e81164"><td class="mdescLeft">&#160;</td><td class="mdescRight">Saves listview to list. <br /></td></tr>
+<tr class="separator:a583a9def16b6dbf237a63c4650e81164"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab47deb5160f687ae290c7ea07e42b4d9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1listview.html#ab47deb5160f687ae290c7ea07e42b4d9">set_item</a> (long index, int <a class="el" href="classwex_1_1column.html">column</a>, const std::string &amp;label, int imageId=-1)</td></tr>
 <tr class="memdesc:ab47deb5160f687ae290c7ea07e42b4d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets an item string field at a particular column.  <a href="classwex_1_1listview.html#ab47deb5160f687ae290c7ea07e42b4d9">More...</a><br /></td></tr>
 <tr class="separator:ab47deb5160f687ae290c7ea07e42b4d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -150,23 +158,51 @@ Static Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a78220af583582af06fef7c5ac5b9dd0e"><td class="memItemLeft" align="right" valign="top"><a id="a78220af583582af06fef7c5ac5b9dd0e"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1listview.html#a78220af583582af06fef7c5ac5b9dd0e">after_sorting</a> ()</td></tr>
-<tr class="memdesc:a78220af583582af06fef7c5ac5b9dd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Invoked after sorting, allows you to do something extra. <br /></td></tr>
+<tr class="memitem:a78220af583582af06fef7c5ac5b9dd0e"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1listview.html#a78220af583582af06fef7c5ac5b9dd0e">after_sorting</a> ()</td></tr>
+<tr class="memdesc:a78220af583582af06fef7c5ac5b9dd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual interface.  <a href="classwex_1_1listview.html#a78220af583582af06fef7c5ac5b9dd0e">More...</a><br /></td></tr>
 <tr class="separator:a78220af583582af06fef7c5ac5b9dd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc307540cf05681618ef0afa14c05ed1"><td class="memItemLeft" align="right" valign="top"><a id="afc307540cf05681618ef0afa14c05ed1"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1listview.html#afc307540cf05681618ef0afa14c05ed1">build_popup_menu</a> (<a class="el" href="classwex_1_1menu.html">menu</a> &amp;<a class="el" href="classwex_1_1menu.html">menu</a>)</td></tr>
 <tr class="memdesc:afc307540cf05681618ef0afa14c05ed1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the popup menu. <br /></td></tr>
 <tr class="separator:afc307540cf05681618ef0afa14c05ed1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d24855a73af1c69f3178cb105769b88"><td class="memItemLeft" align="right" valign="top"><a id="a0d24855a73af1c69f3178cb105769b88"></a>
-const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1listview.html#a0d24855a73af1c69f3178cb105769b88">field_separator</a> () const</td></tr>
-<tr class="memdesc:a0d24855a73af1c69f3178cb105769b88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the field separator. <br /></td></tr>
+<tr class="memitem:a0d24855a73af1c69f3178cb105769b88"><td class="memItemLeft" align="right" valign="top">const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1listview.html#a0d24855a73af1c69f3178cb105769b88">field_separator</a> () const</td></tr>
+<tr class="memdesc:a0d24855a73af1c69f3178cb105769b88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Other methods.  <a href="classwex_1_1listview.html#a0d24855a73af1c69f3178cb105769b88">More...</a><br /></td></tr>
 <tr class="separator:a0d24855a73af1c69f3178cb105769b88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Adds printing, popup menu, images, columns and items to wxListView. </p>
 <p>Allows for sorting on any column. Adds some standard lists, all these lists have items associated with files or folders. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a78220af583582af06fef7c5ac5b9dd0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78220af583582af06fef7c5ac5b9dd0e">&#9670;&nbsp;</a></span>after_sorting()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void wex::listview::after_sorting </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Virtual interface. </p>
+<p>Invoked after sorting, allows you to do something extra. </p>
+
+<p>Reimplemented in <a class="el" href="classwex_1_1report_1_1file.html#a557f3ae9c285ff5409a8fc317460be22">wex::report::file</a>.</p>
+
+</div>
+</div>
 <a id="a31907fbe898dfb48b1720180795d69e5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a31907fbe898dfb48b1720180795d69e5">&#9670;&nbsp;</a></span>append_columns()</h2>
 
@@ -214,6 +250,34 @@ const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 
 <p>Shows a dialog with options, returns dialog return code. </p>
 <p>If used modeless, it uses the dialog id as specified, so you can use that id in <a class="el" href="classwex_1_1frame.html#a69018851c1bf5c3b5db07f773f73469a" title="Called when an item dialog command event is triggered.">frame::on_command_item_dialog</a>. </p>
+
+</div>
+</div>
+<a id="a0d24855a73af1c69f3178cb105769b88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d24855a73af1c69f3178cb105769b88">&#9670;&nbsp;</a></span>field_separator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const auto&amp; wex::listview::field_separator </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Other methods. </p>
+<p>Returns the field separator. </p>
 
 </div>
 </div>
@@ -377,9 +441,6 @@ const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool wex::listview::set_item_image </td>
@@ -399,15 +460,10 @@ const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Sets the item image, using the image list. </p>
-<p>If the listview does not already contain the image, it is added. </p>
+<p>If the listview does not already contain the image, it is added. Returns false if an error occurred. </p>
 
 </div>
 </div>

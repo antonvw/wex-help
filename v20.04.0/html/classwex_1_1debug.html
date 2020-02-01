@@ -67,10 +67,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac6bfb53af905ec9e94ce68350acc8567"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1debug.html#ac6bfb53af905ec9e94ce68350acc8567">add_menu</a> (<a class="el" href="classwex_1_1menu.html">menu</a> *<a class="el" href="classwex_1_1menu.html">menu</a>, bool popup=false) const</td></tr>
 <tr class="memdesc:ac6bfb53af905ec9e94ce68350acc8567"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds debug menu items to specified menu, default as no popup menu.  <a href="classwex_1_1debug.html#ac6bfb53af905ec9e94ce68350acc8567">More...</a><br /></td></tr>
 <tr class="separator:ac6bfb53af905ec9e94ce68350acc8567"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc99a929adf81c248cc4ee0a74d533d2"><td class="memItemLeft" align="right" valign="top"><a id="abc99a929adf81c248cc4ee0a74d533d2"></a>
-auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1debug.html#abc99a929adf81c248cc4ee0a74d533d2">breakpoints</a> ()</td></tr>
-<tr class="memdesc:abc99a929adf81c248cc4ee0a74d533d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns brekpoints. <br /></td></tr>
-<tr class="separator:abc99a929adf81c248cc4ee0a74d533d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a471612a73a20009f935085ca0e7b2482"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1debug.html#a471612a73a20009f935085ca0e7b2482">apply_breakpoints</a> (<a class="el" href="classwex_1_1stc.html">stc</a> *<a class="el" href="classwex_1_1stc.html">stc</a>) const</td></tr>
+<tr class="memdesc:a471612a73a20009f935085ca0e7b2482"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies current breakpoints markers to stc component if applicable.  <a href="classwex_1_1debug.html#a471612a73a20009f935085ca0e7b2482">More...</a><br /></td></tr>
+<tr class="separator:a471612a73a20009f935085ca0e7b2482"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a58b400da171a4b20bc8860b61a177b"><td class="memItemLeft" align="right" valign="top"><a id="a0a58b400da171a4b20bc8860b61a177b"></a>
+auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1debug.html#a0a58b400da171a4b20bc8860b61a177b">breakpoints</a> () const</td></tr>
+<tr class="memdesc:a0a58b400da171a4b20bc8860b61a177b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns breakpoints. <br /></td></tr>
+<tr class="separator:a0a58b400da171a4b20bc8860b61a177b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2c5f51ff757730e38d184a4cca1ff9fe"><td class="memItemLeft" align="right" valign="top"><a id="a2c5f51ff757730e38d184a4cca1ff9fe"></a>
 const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1debug.html#a2c5f51ff757730e38d184a4cca1ff9fe">debug_entry</a> () const</td></tr>
 <tr class="memdesc:a2c5f51ff757730e38d184a4cca1ff9fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns current entry. <br /></td></tr>
@@ -82,26 +85,20 @@ const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1debug.html#a99506571e98b6e910419ef8a3c35f0b4">execute</a> (int id, <a class="el" href="classwex_1_1stc.html">stc</a> *<a class="el" href="classwex_1_1stc.html">stc</a>=nullptr)</td></tr>
 <tr class="memdesc:a99506571e98b6e910419ef8a3c35f0b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">As above, but for a menu action item. <br /></td></tr>
 <tr class="separator:a99506571e98b6e910419ef8a3c35f0b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00f18847982c8696b076865cfcbb0951"><td class="memItemLeft" align="right" valign="top"><a id="a00f18847982c8696b076865cfcbb0951"></a>
-const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1debug.html#a00f18847982c8696b076865cfcbb0951">marker_breakpoint</a> () const</td></tr>
-<tr class="memdesc:a00f18847982c8696b076865cfcbb0951"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns marker for brekpoint. <br /></td></tr>
-<tr class="separator:a00f18847982c8696b076865cfcbb0951"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a05f3ffcddd162d2a9d40ec1360ba16"><td class="memItemLeft" align="right" valign="top"><a id="a6a05f3ffcddd162d2a9d40ec1360ba16"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1debug.html#a6a05f3ffcddd162d2a9d40ec1360ba16">print</a> (const std::string &amp;<a class="el" href="classwex_1_1variable.html">variable</a>)</td></tr>
-<tr class="memdesc:a6a05f3ffcddd162d2a9d40ec1360ba16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ask debugger to print contents of variable. <br /></td></tr>
-<tr class="separator:a6a05f3ffcddd162d2a9d40ec1360ba16"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0602266b6814f02959af959ecffc63fe"><td class="memItemLeft" align="right" valign="top"><a id="a0602266b6814f02959af959ecffc63fe"></a>
-auto *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1debug.html#a0602266b6814f02959af959ecffc63fe">process</a> ()</td></tr>
-<tr class="memdesc:a0602266b6814f02959af959ecffc63fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns process. <br /></td></tr>
-<tr class="separator:a0602266b6814f02959af959ecffc63fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0418848c0b9429938b149e8bd90ef17"><td class="memItemLeft" align="right" valign="top"><a id="ac0418848c0b9429938b149e8bd90ef17"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1debug.html#ac0418848c0b9429938b149e8bd90ef17">is_active</a> () const</td></tr>
+<tr class="memdesc:ac0418848c0b9429938b149e8bd90ef17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if a debug session is active. <br /></td></tr>
+<tr class="separator:ac0418848c0b9429938b149e8bd90ef17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eef982c69c389691f085adce33209ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1debug.html#a7eef982c69c389691f085adce33209ce">print</a> (const std::string &amp;<a class="el" href="classwex_1_1variable.html">variable</a>) const</td></tr>
+<tr class="memdesc:a7eef982c69c389691f085adce33209ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ask debugger to print contents of variable.  <a href="classwex_1_1debug.html#a7eef982c69c389691f085adce33209ce">More...</a><br /></td></tr>
+<tr class="separator:a7eef982c69c389691f085adce33209ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ba39eba8c4c2a69356bf1b23320df52"><td class="memItemLeft" align="right" valign="top"><a id="a2ba39eba8c4c2a69356bf1b23320df52"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1debug.html#a2ba39eba8c4c2a69356bf1b23320df52">show_dialog</a> (<a class="el" href="classwex_1_1frame.html">frame</a> *parent)</td></tr>
 <tr class="memdesc:a2ba39eba8c4c2a69356bf1b23320df52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows dialog to select debug entry. <br /></td></tr>
 <tr class="separator:a2ba39eba8c4c2a69356bf1b23320df52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeed9adcd6c8bd018a5405ab567cc154d"><td class="memItemLeft" align="right" valign="top"><a id="aeed9adcd6c8bd018a5405ab567cc154d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1debug.html#aeed9adcd6c8bd018a5405ab567cc154d">toggle_breakpoint</a> (int line, <a class="el" href="classwex_1_1stc.html">stc</a> *<a class="el" href="classwex_1_1stc.html">stc</a>)</td></tr>
-<tr class="memdesc:aeed9adcd6c8bd018a5405ab567cc154d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggles breakpoint on line. <br /></td></tr>
-<tr class="separator:aeed9adcd6c8bd018a5405ab567cc154d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b172236dc9e42be8fb26f8dc9a66419"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1debug.html#a5b172236dc9e42be8fb26f8dc9a66419">toggle_breakpoint</a> (int line, <a class="el" href="classwex_1_1stc.html">stc</a> *<a class="el" href="classwex_1_1stc.html">stc</a>)</td></tr>
+<tr class="memdesc:a5b172236dc9e42be8fb26f8dc9a66419"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggles breakpoint on line.  <a href="classwex_1_1debug.html#a5b172236dc9e42be8fb26f8dc9a66419">More...</a><br /></td></tr>
+<tr class="separator:a5b172236dc9e42be8fb26f8dc9a66419"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Offers a debug that allows you to use an stc component as graphical interface for a debug process (e.g. </p>
@@ -138,6 +135,27 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 </div>
 </div>
+<a id="a471612a73a20009f935085ca0e7b2482"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a471612a73a20009f935085ca0e7b2482">&#9670;&nbsp;</a></span>apply_breakpoints()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool wex::debug::apply_breakpoints </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwex_1_1stc.html">stc</a> *&#160;</td>
+          <td class="paramname"><em>stc</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Applies current breakpoints markers to stc component if applicable. </p>
+<p>Returns false if no markers were added. </p>
+
+</div>
+</div>
 <a id="a1c81e71bda16947adf8b63ed9dbba9c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c81e71bda16947adf8b63ed9dbba9c3">&#9670;&nbsp;</a></span>execute()</h2>
 
@@ -166,6 +184,58 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 <p>Executes the item action using the current debug process, if there is not yet a debug process, invokes frame::process to allow derived classed to provide one, and optionally use an stc component for extra input / output. </p>
 <p>Returns false if cancelled, or no debug process available. </p>
+
+</div>
+</div>
+<a id="a7eef982c69c389691f085adce33209ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eef982c69c389691f085adce33209ce">&#9670;&nbsp;</a></span>print()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool wex::debug::print </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>variable</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Ask debugger to print contents of variable. </p>
+<p>Returns false if no debug process is available. </p>
+
+</div>
+</div>
+<a id="a5b172236dc9e42be8fb26f8dc9a66419"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b172236dc9e42be8fb26f8dc9a66419">&#9670;&nbsp;</a></span>toggle_breakpoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool wex::debug::toggle_breakpoint </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>line</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classwex_1_1stc.html">stc</a> *&#160;</td>
+          <td class="paramname"><em>stc</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Toggles breakpoint on line. </p>
+<p>Returns false if no debug process is available. </p>
 
 </div>
 </div>

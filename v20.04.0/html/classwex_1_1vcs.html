@@ -88,7 +88,7 @@ const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="e
 <tr class="memdesc:aec215680faa4e84bf87ffc19f470dc22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns name for current vcs entry, or empty string if vcs is not used. <br /></td></tr>
 <tr class="separator:aec215680faa4e84bf87ffc19f470dc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa512577713754998b18a1756b4acea9d"><td class="memItemLeft" align="right" valign="top">wxStandardID&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1vcs.html#aa512577713754998b18a1756b4acea9d">request</a> (const <a class="el" href="classwex_1_1window__data.html">window_data</a> &amp;data=<a class="el" href="classwex_1_1window__data.html">window_data</a>())</td></tr>
-<tr class="memdesc:aa512577713754998b18a1756b4acea9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combines show_dialog, Execute and vcs entry show_output in one method.  <a href="classwex_1_1vcs.html#aa512577713754998b18a1756b4acea9d">More...</a><br /></td></tr>
+<tr class="memdesc:aa512577713754998b18a1756b4acea9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Combines show_dialog, execute and vcs entry show_output in one method.  <a href="classwex_1_1vcs.html#aa512577713754998b18a1756b4acea9d">More...</a><br /></td></tr>
 <tr class="separator:aa512577713754998b18a1756b4acea9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa501d18e7c12605550890c2541abf869"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1vcs.html#aa501d18e7c12605550890c2541abf869">set_entry_from_base</a> (wxWindow *parent=nullptr)</td></tr>
 <tr class="memdesc:aa501d18e7c12605550890c2541abf869"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the vcs entry using base folder.  <a href="classwex_1_1vcs.html#aa501d18e7c12605550890c2541abf869">More...</a><br /></td></tr>
@@ -224,7 +224,7 @@ static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </div><div class="memdoc">
 
 <p>Executes the current vcs command for the current vcs entry, and collects the output. </p>
-<p>Returns return code from vcs entry Execute. </p>
+<p>Returns return code from vcs entry execute. </p>
 
 </div>
 </div>
@@ -293,7 +293,7 @@ static auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
       </table>
 </div><div class="memdoc">
 
-<p>Combines show_dialog, Execute and vcs entry show_output in one method. </p>
+<p>Combines show_dialog, execute and vcs entry show_output in one method. </p>
 <ul>
 <li>Returns wxID_CANCEL if dialog was cancelled, or an execute error occurred.</li>
 <li>Returns wxID_OK if okay (use vcs entry error to check whether the output contains errors or normal info). </li>

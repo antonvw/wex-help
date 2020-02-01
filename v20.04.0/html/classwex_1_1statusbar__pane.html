@@ -51,7 +51,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>This class defines our statusbar panes, used by <a class="el" href="classwex_1_1frame.html#a5e217426f9b539e8693c16eaf32e186c" title="Sets up the status bar if you want to use statustext.">wex::frame::setup_statusbar</a>.  
+<p>This class defines our statusbar panes, used by <a class="el" href="classwex_1_1frame.html#a23a4f8494394a7520a46519d665403e8" title="Sets up the status bar if you want to use statustext.">wex::frame::setup_statusbar</a>.  
  <a href="classwex_1_1statusbar__pane.html#details">More...</a></p>
 
 <p><code>#include &lt;wex/statusbar.h&gt;</code></p>
@@ -63,9 +63,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a51047f9539497b462b320415d5926694"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1statusbar__pane.html#a51047f9539497b462b320415d5926694">statusbar_pane</a> (int width=-5, int <a class="el" href="classwex_1_1style.html">style</a>=wxSB_NORMAL)</td></tr>
 <tr class="memdesc:a51047f9539497b462b320415d5926694"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="classwex_1_1statusbar__pane.html#a51047f9539497b462b320415d5926694">More...</a><br /></td></tr>
 <tr class="separator:a51047f9539497b462b320415d5926694"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a069d2c8fe620c8f858cc2f64457a6f2f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1statusbar__pane.html#a069d2c8fe620c8f858cc2f64457a6f2f">statusbar_pane</a> (const std::string &amp;name, int width=50, const std::string &amp;helptext=std::string(), int <a class="el" href="classwex_1_1style.html">style</a>=wxSB_NORMAL)</td></tr>
-<tr class="memdesc:a069d2c8fe620c8f858cc2f64457a6f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classwex_1_1statusbar__pane.html#a069d2c8fe620c8f858cc2f64457a6f2f">More...</a><br /></td></tr>
-<tr class="separator:a069d2c8fe620c8f858cc2f64457a6f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd456fd6725591695c0a5ec5e9ac5764"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1statusbar__pane.html#acd456fd6725591695c0a5ec5e9ac5764">statusbar_pane</a> (const std::string &amp;name, int width=50, const std::string &amp;helptext=std::string(), int <a class="el" href="classwex_1_1style.html">style</a>=wxSB_NORMAL, bool <a class="el" href="classwex_1_1statusbar__pane.html#a20b4aeb678228a3c48290738d8c812c5">is_shown</a>=true)</td></tr>
+<tr class="memdesc:acd456fd6725591695c0a5ec5e9ac5764"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="classwex_1_1statusbar__pane.html#acd456fd6725591695c0a5ec5e9ac5764">More...</a><br /></td></tr>
+<tr class="separator:acd456fd6725591695c0a5ec5e9ac5764"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a933de2e9e6f1a857775f278445eb1070"><td class="memItemLeft" align="right" valign="top"><a id="a933de2e9e6f1a857775f278445eb1070"></a>
 const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1statusbar__pane.html#a933de2e9e6f1a857775f278445eb1070">get_hidden_text</a> () const</td></tr>
 <tr class="memdesc:a933de2e9e6f1a857775f278445eb1070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns hidden text. <br /></td></tr>
@@ -91,7 +91,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:a8eb0f9827e8f35893680e4e59394c28b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This class defines our statusbar panes, used by <a class="el" href="classwex_1_1frame.html#a5e217426f9b539e8693c16eaf32e186c" title="Sets up the status bar if you want to use statustext.">wex::frame::setup_statusbar</a>. </p>
+<div class="textblock"><p>This class defines our statusbar panes, used by <a class="el" href="classwex_1_1frame.html#a23a4f8494394a7520a46519d665403e8" title="Sets up the status bar if you want to use statustext.">wex::frame::setup_statusbar</a>. </p>
 <p>It just adds some members to the base class (that offers GetText(), style() and GetWidth()). </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a51047f9539497b462b320415d5926694"></a>
@@ -140,14 +140,11 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 
 </div>
 </div>
-<a id="a069d2c8fe620c8f858cc2f64457a6f2f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a069d2c8fe620c8f858cc2f64457a6f2f">&#9670;&nbsp;</a></span>statusbar_pane() <span class="overload">[2/2]</span></h2>
+<a id="acd456fd6725591695c0a5ec5e9ac5764"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd456fd6725591695c0a5ec5e9ac5764">&#9670;&nbsp;</a></span>statusbar_pane() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">wex::statusbar_pane::statusbar_pane </td>
@@ -171,7 +168,13 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>style</em> = <code>wxSB_NORMAL</code>&#160;</td>
+          <td class="paramname"><em>style</em> = <code>wxSB_NORMAL</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>is_shown</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -179,11 +182,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Constructor. </p>
@@ -207,6 +205,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <li>wxSB_SUNKEN (3) </li>
 </ul>
 </td></tr>
+    <tr><td class="paramname">is_shown</td><td>initially show or hide the pane </td></tr>
   </table>
   </dd>
 </dl>

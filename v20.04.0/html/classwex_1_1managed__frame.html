@@ -76,6 +76,14 @@ Public Types</h2></td></tr>
  }</td></tr>
 <tr class="memdesc:afafb26ac49b6eeb28341edb9553aeb06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enums for hide_ex_bar.  <a href="classwex_1_1managed__frame.html#afafb26ac49b6eeb28341edb9553aeb06">More...</a><br /></td></tr>
 <tr class="separator:afafb26ac49b6eeb28341edb9553aeb06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83a839c9c9e347e8ff57aadc3b6f4761"><td class="memItemLeft" align="right" valign="top"><a id="a83a839c9c9e347e8ff57aadc3b6f4761"></a>
+typedef std::vector&lt; std::pair&lt; wxWindow *, wxAuiPaneInfo &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1managed__frame.html#a83a839c9c9e347e8ff57aadc3b6f4761">panes_t</a></td></tr>
+<tr class="memdesc:a83a839c9c9e347e8ff57aadc3b6f4761"><td class="mdescLeft">&#160;</td><td class="mdescRight">Panes vector with a pair of panes. <br /></td></tr>
+<tr class="separator:a83a839c9c9e347e8ff57aadc3b6f4761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b0db1b43d5b6f50086f3cac1c1348bc"><td class="memItemLeft" align="right" valign="top"><a id="a3b0db1b43d5b6f50086f3cac1c1348bc"></a>
+typedef std::vector&lt; std::pair&lt; std::pair&lt; std::string, std::string &gt;, int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1managed__frame.html#a3b0db1b43d5b6f50086f3cac1c1348bc">toggled_panes_t</a></td></tr>
+<tr class="memdesc:a3b0db1b43d5b6f50086f3cac1c1348bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggled panes type. <br /></td></tr>
+<tr class="separator:a3b0db1b43d5b6f50086f3cac1c1348bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -115,16 +123,25 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memitem:af0ff3a5199e97d16082c81faffac0045"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1managed__frame.html#af0ff3a5199e97d16082c81faffac0045">sync_close_all</a> (wxWindowID id)</td></tr>
 <tr class="memdesc:af0ff3a5199e97d16082c81faffac0045"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called after all pages from the notebooks are deleted.  <a href="classwex_1_1managed__frame.html#af0ff3a5199e97d16082c81faffac0045">More...</a><br /></td></tr>
 <tr class="separator:af0ff3a5199e97d16082c81faffac0045"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9be3ab02c5b3a97f2e8a328bfa29185c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwex_1_1stc.html">stc</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1managed__frame.html#a9be3ab02c5b3a97f2e8a328bfa29185c">open_file</a> (const <a class="el" href="classwex_1_1path.html">path</a> &amp;filename, const <a class="el" href="classwex_1_1stc__data.html">stc_data</a> &amp;data=<a class="el" href="classwex_1_1stc__data.html">stc_data</a>()) override</td></tr>
-<tr class="memdesc:a9be3ab02c5b3a97f2e8a328bfa29185c"><td class="mdescLeft">&#160;</td><td class="mdescRight">overriden methods  <a href="classwex_1_1managed__frame.html#a9be3ab02c5b3a97f2e8a328bfa29185c">More...</a><br /></td></tr>
+<tr class="memitem:a9be3ab02c5b3a97f2e8a328bfa29185c"><td class="memItemLeft" align="right" valign="top"><a id="a9be3ab02c5b3a97f2e8a328bfa29185c"></a>
+<a class="el" href="classwex_1_1stc.html">stc</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1managed__frame.html#a9be3ab02c5b3a97f2e8a328bfa29185c">open_file</a> (const <a class="el" href="classwex_1_1path.html">path</a> &amp;filename, const <a class="el" href="classwex_1_1stc__data.html">stc_data</a> &amp;data=<a class="el" href="classwex_1_1stc__data.html">stc_data</a>()) override</td></tr>
+<tr class="memdesc:a9be3ab02c5b3a97f2e8a328bfa29185c"><td class="mdescLeft">&#160;</td><td class="mdescRight">overriden methods <br /></td></tr>
 <tr class="separator:a9be3ab02c5b3a97f2e8a328bfa29185c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0e655c03f1825366920e96e74831968"><td class="memItemLeft" align="right" valign="top"><a id="ab0e655c03f1825366920e96e74831968"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1managed__frame.html#ab0e655c03f1825366920e96e74831968">set_recent_file</a> (const <a class="el" href="classwex_1_1path.html">path</a> &amp;<a class="el" href="classwex_1_1path.html">path</a>) override</td></tr>
 <tr class="memdesc:ab0e655c03f1825366920e96e74831968"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows derived class to update file history. <br /></td></tr>
 <tr class="separator:ab0e655c03f1825366920e96e74831968"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ac2a1dafee9b8145c39cfc73ba57f71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1managed__frame.html#a0ac2a1dafee9b8145c39cfc73ba57f71">append_panes</a> (wxMenu *<a class="el" href="classwex_1_1menu.html">menu</a>) const</td></tr>
-<tr class="memdesc:a0ac2a1dafee9b8145c39cfc73ba57f71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Other methods.  <a href="classwex_1_1managed__frame.html#a0ac2a1dafee9b8145c39cfc73ba57f71">More...</a><br /></td></tr>
-<tr class="separator:a0ac2a1dafee9b8145c39cfc73ba57f71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1c6d5dbb6b6b51c78c3daec8584422b"><td class="memItemLeft" align="right" valign="top"><a id="ae1c6d5dbb6b6b51c78c3daec8584422b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1managed__frame.html#ae1c6d5dbb6b6b51c78c3daec8584422b">statusbar_clicked</a> (const std::string &amp;) override</td></tr>
+<tr class="memdesc:ae1c6d5dbb6b6b51c78c3daec8584422b"><td class="mdescLeft">&#160;</td><td class="mdescRight">When (left) clicked, uses the <a class="el" href="classwex_1_1frame.html#a75ca6289d21908e4645b83945ad2ef0f" title="Returns an stc.">get_stc()</a> for some dialogs. <br /></td></tr>
+<tr class="separator:ae1c6d5dbb6b6b51c78c3daec8584422b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfebcb8fac7c7338961646f2fe9bbd4a"><td class="memItemLeft" align="right" valign="top"><a id="adfebcb8fac7c7338961646f2fe9bbd4a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1managed__frame.html#adfebcb8fac7c7338961646f2fe9bbd4a">statusbar_clicked_right</a> (const std::string &amp;) override</td></tr>
+<tr class="memdesc:adfebcb8fac7c7338961646f2fe9bbd4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do something when statusbar is (right) clicked. <br /></td></tr>
+<tr class="separator:adfebcb8fac7c7338961646f2fe9bbd4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24375c021f2ffb102686815802370504"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1managed__frame.html#a24375c021f2ffb102686815802370504">add_panes</a> (const <a class="el" href="classwex_1_1managed__frame.html#a83a839c9c9e347e8ff57aadc3b6f4761">panes_t</a> &amp;panes, const std::string &amp;perspective=std::string())</td></tr>
+<tr class="memdesc:a24375c021f2ffb102686815802370504"><td class="mdescLeft">&#160;</td><td class="mdescRight">Other methods.  <a href="classwex_1_1managed__frame.html#a24375c021f2ffb102686815802370504">More...</a><br /></td></tr>
+<tr class="separator:a24375c021f2ffb102686815802370504"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb982c61755a8ecbc1bf0272ea02c906"><td class="memItemLeft" align="right" valign="top"><a id="acb982c61755a8ecbc1bf0272ea02c906"></a>
 auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1managed__frame.html#acb982c61755a8ecbc1bf0272ea02c906">file_history</a> ()</td></tr>
 <tr class="memdesc:acb982c61755a8ecbc1bf0272ea02c906"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns file history. <br /></td></tr>
@@ -165,6 +182,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="memitem:a4fc52a9ee8eda3e1cb97d89130f36a82"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1managed__frame.html#a4fc52a9ee8eda3e1cb97d89130f36a82">toggle_pane</a> (const std::string &amp;pane)</td></tr>
 <tr class="memdesc:a4fc52a9ee8eda3e1cb97d89130f36a82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggles the managed pane: if shown hides it, otherwise shows it.  <a href="classwex_1_1managed__frame.html#a4fc52a9ee8eda3e1cb97d89130f36a82">More...</a><br /></td></tr>
 <tr class="separator:a4fc52a9ee8eda3e1cb97d89130f36a82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ba2eddffe8750b51d202aa6d1edd583"><td class="memItemLeft" align="right" valign="top"><a id="a8ba2eddffe8750b51d202aa6d1edd583"></a>
+const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1managed__frame.html#a8ba2eddffe8750b51d202aa6d1edd583">toggled_panes</a> () const</td></tr>
+<tr class="memdesc:a8ba2eddffe8750b51d202aa6d1edd583"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the toggled panes. <br /></td></tr>
+<tr class="separator:a8ba2eddffe8750b51d202aa6d1edd583"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classwex_1_1frame"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classwex_1_1frame')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classwex_1_1frame.html">wex::frame</a></td></tr>
 <tr class="memitem:ab0b1b1ed7757582514f6a4c44ba4c71f inherit pub_methods_classwex_1_1frame"><td class="memItemLeft" align="right" valign="top"><a id="ab0b1b1ed7757582514f6a4c44ba4c71f"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1frame.html#ab0b1b1ed7757582514f6a4c44ba4c71f">frame</a> (const <a class="el" href="classwex_1_1window__data.html">window_data</a> &amp;data=<a class="el" href="classwex_1_1window__data.html">window_data</a>())</td></tr>
@@ -209,21 +230,13 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 <tr class="memitem:adcf041f4078236c7bb2587a638098534 inherit pub_methods_classwex_1_1frame"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classwex_1_1stc.html">stc</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1frame.html#adcf041f4078236c7bb2587a638098534">open_file</a> (const <a class="el" href="classwex_1_1path.html">path</a> &amp;filename, const std::string &amp;text, const <a class="el" href="classwex_1_1stc__data.html">stc_data</a> &amp;data=<a class="el" href="classwex_1_1stc__data.html">stc_data</a>())</td></tr>
 <tr class="memdesc:adcf041f4078236c7bb2587a638098534 inherit pub_methods_classwex_1_1frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows you to open a filename with specified contents.  <a href="classwex_1_1frame.html#adcf041f4078236c7bb2587a638098534">More...</a><br /></td></tr>
 <tr class="separator:adcf041f4078236c7bb2587a638098534 inherit pub_methods_classwex_1_1frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40b9a09e7c125906f7fb7626115f3aa7 inherit pub_methods_classwex_1_1frame"><td class="memItemLeft" align="right" valign="top"><a id="a40b9a09e7c125906f7fb7626115f3aa7"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1frame.html#a40b9a09e7c125906f7fb7626115f3aa7">statusbar_clicked</a> (const std::string &amp;pane)</td></tr>
-<tr class="memdesc:a40b9a09e7c125906f7fb7626115f3aa7 inherit pub_methods_classwex_1_1frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">When (left) clicked, uses the <a class="el" href="classwex_1_1frame.html#a75ca6289d21908e4645b83945ad2ef0f" title="Returns an stc.">get_stc()</a> for some dialogs. <br /></td></tr>
-<tr class="separator:a40b9a09e7c125906f7fb7626115f3aa7 inherit pub_methods_classwex_1_1frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42dd35db29520fc208ce27af6703f2f6 inherit pub_methods_classwex_1_1frame"><td class="memItemLeft" align="right" valign="top"><a id="a42dd35db29520fc208ce27af6703f2f6"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1frame.html#a42dd35db29520fc208ce27af6703f2f6">statusbar_clicked_right</a> (const std::string &amp;)</td></tr>
-<tr class="memdesc:a42dd35db29520fc208ce27af6703f2f6 inherit pub_methods_classwex_1_1frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Do something when statusbar is (right) clicked. <br /></td></tr>
-<tr class="separator:a42dd35db29520fc208ce27af6703f2f6 inherit pub_methods_classwex_1_1frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a337e1c1ba8d3a15629d478a11c2e810b inherit pub_methods_classwex_1_1frame"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1frame.html#a337e1c1ba8d3a15629d478a11c2e810b">set_find_focus</a> (wxWindow *focus)</td></tr>
 <tr class="memdesc:a337e1c1ba8d3a15629d478a11c2e810b inherit pub_methods_classwex_1_1frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Other methods.  <a href="classwex_1_1frame.html#a337e1c1ba8d3a15629d478a11c2e810b">More...</a><br /></td></tr>
 <tr class="separator:a337e1c1ba8d3a15629d478a11c2e810b inherit pub_methods_classwex_1_1frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e217426f9b539e8693c16eaf32e186c inherit pub_methods_classwex_1_1frame"><td class="memItemLeft" align="right" valign="top"><a id="a5e217426f9b539e8693c16eaf32e186c"></a>
-<a class="el" href="classwex_1_1statusbar.html">statusbar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1frame.html#a5e217426f9b539e8693c16eaf32e186c">setup_statusbar</a> (const std::vector&lt; <a class="el" href="classwex_1_1statusbar__pane.html">statusbar_pane</a> &gt; &amp;panes, long <a class="el" href="classwex_1_1style.html">style</a>=wxST_SIZEGRIP, const wxString &amp;name=&quot;statusBar&quot;)</td></tr>
-<tr class="memdesc:a5e217426f9b539e8693c16eaf32e186c inherit pub_methods_classwex_1_1frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up the status bar if you want to use statustext. <br /></td></tr>
-<tr class="separator:a5e217426f9b539e8693c16eaf32e186c inherit pub_methods_classwex_1_1frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23a4f8494394a7520a46519d665403e8 inherit pub_methods_classwex_1_1frame"><td class="memItemLeft" align="right" valign="top"><a id="a23a4f8494394a7520a46519d665403e8"></a>
+<a class="el" href="classwex_1_1statusbar.html">statusbar</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1frame.html#a23a4f8494394a7520a46519d665403e8">setup_statusbar</a> (const std::vector&lt; <a class="el" href="classwex_1_1statusbar__pane.html">statusbar_pane</a> &gt; &amp;panes, long <a class="el" href="classwex_1_1style.html">style</a>=wxST_SIZEGRIP, const std::string &amp;name=&quot;statusBar&quot;)</td></tr>
+<tr class="memdesc:a23a4f8494394a7520a46519d665403e8 inherit pub_methods_classwex_1_1frame"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up the status bar if you want to use statustext. <br /></td></tr>
+<tr class="separator:a23a4f8494394a7520a46519d665403e8 inherit pub_methods_classwex_1_1frame"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -286,6 +299,44 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a24375c021f2ffb102686815802370504"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24375c021f2ffb102686815802370504">&#9670;&nbsp;</a></span>add_panes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool wex::managed_frame::add_panes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classwex_1_1managed__frame.html#a83a839c9c9e347e8ff57aadc3b6f4761">panes_t</a> &amp;&#160;</td>
+          <td class="paramname"><em>panes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>perspective</em> = <code>std::string()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Other methods. </p>
+<p>Add panes to manager. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">panes</td><td>panes </td></tr>
+    <tr><td class="paramname">perspective</td><td>perspective to load / save </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="adeaa1aae807eca293a30bc576851e539"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#adeaa1aae807eca293a30bc576851e539">&#9670;&nbsp;</a></span>allow_close()</h2>
 
@@ -329,27 +380,6 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
   </table>
   </dd>
 </dl>
-
-</div>
-</div>
-<a id="a0ac2a1dafee9b8145c39cfc73ba57f71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ac2a1dafee9b8145c39cfc73ba57f71">&#9670;&nbsp;</a></span>append_panes()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void wex::managed_frame::append_panes </td>
-          <td>(</td>
-          <td class="paramtype">wxMenu *&#160;</td>
-          <td class="paramname"><em>menu</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Other methods. </p>
-<p>Appends the toggle panes to the specified menu. </p>
 
 </div>
 </div>
@@ -439,47 +469,6 @@ static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 
 <p>Called if the notebook changed page. </p>
 <p>Default sets the focus to page and adds page as recently used. </p>
-
-</div>
-</div>
-<a id="a9be3ab02c5b3a97f2e8a328bfa29185c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9be3ab02c5b3a97f2e8a328bfa29185c">&#9670;&nbsp;</a></span>open_file()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classwex_1_1stc.html">stc</a>* wex::managed_frame::open_file </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classwex_1_1path.html">path</a> &amp;&#160;</td>
-          <td class="paramname"><em>filename</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classwex_1_1stc__data.html">stc_data</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em> = <code><a class="el" href="classwex_1_1stc__data.html">stc_data</a>()</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>overriden methods </p>
-<p>Allows derived class to update file history. Interface from frame. </p>
-
-<p>Reimplemented from <a class="el" href="classwex_1_1frame.html#a459e0a641f97e270584e3bb994abb4a6">wex::frame</a>.</p>
 
 </div>
 </div>

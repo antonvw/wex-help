@@ -96,13 +96,17 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1grid.html#a903e0f5a46fd7e8853f40848b8524f2a">find_next</a> (const std::string &amp;text, bool forward=true)</td></tr>
 <tr class="memdesc:a903e0f5a46fd7e8853f40848b8524f2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds next. <br /></td></tr>
 <tr class="separator:a903e0f5a46fd7e8853f40848b8524f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d84f1b32c7b42c3ca9d0c8ddb4ad49f"><td class="memItemLeft" align="right" valign="top"><a id="a6d84f1b32c7b42c3ca9d0c8ddb4ad49f"></a>
+const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1grid.html#a6d84f1b32c7b42c3ca9d0c8ddb4ad49f">get_cells_value</a> () const</td></tr>
+<tr class="memdesc:a6d84f1b32c7b42c3ca9d0c8ddb4ad49f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get text from all cells. <br /></td></tr>
+<tr class="separator:a6d84f1b32c7b42c3ca9d0c8ddb4ad49f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3a170a034fa9ea3955ea464f35283e7f"><td class="memItemLeft" align="right" valign="top"><a id="a3a170a034fa9ea3955ea464f35283e7f"></a>
 const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1grid.html#a3a170a034fa9ea3955ea464f35283e7f">get_find_string</a> () const</td></tr>
 <tr class="memdesc:a3a170a034fa9ea3955ea464f35283e7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates find replace text. <br /></td></tr>
 <tr class="separator:a3a170a034fa9ea3955ea464f35283e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a812f56e6ce00d7032a34969ac3951da8"><td class="memItemLeft" align="right" valign="top"><a id="a812f56e6ce00d7032a34969ac3951da8"></a>
 const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1grid.html#a812f56e6ce00d7032a34969ac3951da8">get_selected_cells_value</a> () const</td></tr>
-<tr class="memdesc:a812f56e6ce00d7032a34969ac3951da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get text from selected cells,. <br /></td></tr>
+<tr class="memdesc:a812f56e6ce00d7032a34969ac3951da8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get text from selected cells. <br /></td></tr>
 <tr class="separator:a812f56e6ce00d7032a34969ac3951da8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ff178de436b95d095a1172962975b8b"><td class="memItemLeft" align="right" valign="top"><a id="a4ff178de436b95d095a1172962975b8b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1grid.html#a4ff178de436b95d095a1172962975b8b">paste_cells_from_clipboard</a> ()</td></tr>
@@ -126,19 +130,76 @@ void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:afdc7a2393bb23d9cb7eabdafde00e178"><td class="memItemLeft" align="right" valign="top"><a id="afdc7a2393bb23d9cb7eabdafde00e178"></a>
-const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1grid.html#afdc7a2393bb23d9cb7eabdafde00e178">build_page</a> ()</td></tr>
-<tr class="memdesc:afdc7a2393bb23d9cb7eabdafde00e178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the page used for printing. <br /></td></tr>
-<tr class="separator:afdc7a2393bb23d9cb7eabdafde00e178"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac41100a71c65ba4448cc1b5d9ab53714"><td class="memItemLeft" align="right" valign="top"><a id="ac41100a71c65ba4448cc1b5d9ab53714"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1grid.html#ac41100a71c65ba4448cc1b5d9ab53714">build_popup_menu</a> (<a class="el" href="classwex_1_1menu.html">menu</a> &amp;<a class="el" href="classwex_1_1menu.html">menu</a>)</td></tr>
-<tr class="memdesc:ac41100a71c65ba4448cc1b5d9ab53714"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds the popup menu. <br /></td></tr>
+<tr class="memitem:ac41100a71c65ba4448cc1b5d9ab53714"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1grid.html#ac41100a71c65ba4448cc1b5d9ab53714">build_popup_menu</a> (<a class="el" href="classwex_1_1menu.html">menu</a> &amp;<a class="el" href="classwex_1_1menu.html">menu</a>)</td></tr>
+<tr class="memdesc:ac41100a71c65ba4448cc1b5d9ab53714"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual Interface.  <a href="classwex_1_1grid.html#ac41100a71c65ba4448cc1b5d9ab53714">More...</a><br /></td></tr>
 <tr class="separator:ac41100a71c65ba4448cc1b5d9ab53714"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdc7a2393bb23d9cb7eabdafde00e178"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1grid.html#afdc7a2393bb23d9cb7eabdafde00e178">build_page</a> ()</td></tr>
+<tr class="memdesc:afdc7a2393bb23d9cb7eabdafde00e178"><td class="mdescLeft">&#160;</td><td class="mdescRight">Other methods.  <a href="classwex_1_1grid.html#afdc7a2393bb23d9cb7eabdafde00e178">More...</a><br /></td></tr>
+<tr class="separator:afdc7a2393bb23d9cb7eabdafde00e178"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Offers popup menu with copy/paste, printing. </p>
 <p>It also offers drag/drop functionality. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="afdc7a2393bb23d9cb7eabdafde00e178"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afdc7a2393bb23d9cb7eabdafde00e178">&#9670;&nbsp;</a></span>build_page()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string wex::grid::build_page </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Other methods. </p>
+<p>Builds the page used for printing. </p>
+
+</div>
+</div>
+<a id="ac41100a71c65ba4448cc1b5d9ab53714"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac41100a71c65ba4448cc1b5d9ab53714">&#9670;&nbsp;</a></span>build_popup_menu()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void wex::grid::build_popup_menu </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classwex_1_1menu.html">menu</a> &amp;&#160;</td>
+          <td class="paramname"><em>menu</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Virtual Interface. </p>
+<p>Builds the popup menu. </p>
+
+<p>Reimplemented in <a class="el" href="classwex_1_1grid__statistics.html#af8dc294926dfef657571e472c8d8abc9">wex::grid_statistics&lt; T &gt;</a>, and <a class="el" href="classwex_1_1grid__statistics.html#af8dc294926dfef657571e472c8d8abc9">wex::grid_statistics&lt; int &gt;</a>.</p>
+
+</div>
+</div>
 <a id="a7af7b0f9fdc3dfb0201b8855aaaa30f3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7af7b0f9fdc3dfb0201b8855aaaa30f3">&#9670;&nbsp;</a></span>copy_selected_cells_to_clipboard()</h2>
 

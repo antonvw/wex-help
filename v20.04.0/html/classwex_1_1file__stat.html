@@ -60,10 +60,10 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3b873162a305c59d07d268ef70833936"><td class="memItemLeft" align="right" valign="top"><a id="a3b873162a305c59d07d268ef70833936"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1file__stat.html#a3b873162a305c59d07d268ef70833936">file_stat</a> (const std::string &amp;fullpath=std::string())</td></tr>
-<tr class="memdesc:a3b873162a305c59d07d268ef70833936"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Calls sync. <br /></td></tr>
-<tr class="separator:a3b873162a305c59d07d268ef70833936"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7801dffc197cb97b9e05f69e8044451e"><td class="memItemLeft" align="right" valign="top"><a id="a7801dffc197cb97b9e05f69e8044451e"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1file__stat.html#a7801dffc197cb97b9e05f69e8044451e">file_stat</a> (const std::string &amp;<a class="el" href="classwex_1_1path.html">path</a>=std::string())</td></tr>
+<tr class="memdesc:a7801dffc197cb97b9e05f69e8044451e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Calls sync. <br /></td></tr>
+<tr class="separator:a7801dffc197cb97b9e05f69e8044451e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a740de698bbe4098be1fb1773487c96dd"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1file__stat.html#a740de698bbe4098be1fb1773487c96dd">get_modification_time</a> (const std::string &amp;format=MOD_TIME_FORMAT) const</td></tr>
 <tr class="memdesc:a740de698bbe4098be1fb1773487c96dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the modification time.  <a href="classwex_1_1file__stat.html#a740de698bbe4098be1fb1773487c96dd">More...</a><br /></td></tr>
 <tr class="separator:a740de698bbe4098be1fb1773487c96dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -75,14 +75,18 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1file__stat.html#a63e25af2a578b83896630b65ebfbe45e">is_readonly</a> () const</td></tr>
 <tr class="memdesc:a63e25af2a578b83896630b65ebfbe45e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this stat is readonly. <br /></td></tr>
 <tr class="separator:a63e25af2a578b83896630b65ebfbe45e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6528efe0d317a43cc9b822a269e7f06"><td class="memItemLeft" align="right" valign="top"><a id="aa6528efe0d317a43cc9b822a269e7f06"></a>
+const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1file__stat.html#aa6528efe0d317a43cc9b822a269e7f06">path</a> () const</td></tr>
+<tr class="memdesc:aa6528efe0d317a43cc9b822a269e7f06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns path. <br /></td></tr>
+<tr class="separator:aa6528efe0d317a43cc9b822a269e7f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2e17ac7a0e1fdcd0346892264f338b9"><td class="memItemLeft" align="right" valign="top"><a id="ae2e17ac7a0e1fdcd0346892264f338b9"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1file__stat.html#ae2e17ac7a0e1fdcd0346892264f338b9">sync</a> ()</td></tr>
 <tr class="memdesc:ae2e17ac7a0e1fdcd0346892264f338b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets (syncs) this stat, returns result and keeps it in is_ok. <br /></td></tr>
 <tr class="separator:ae2e17ac7a0e1fdcd0346892264f338b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a062f50b0bdee0968200a3361fd67a56f"><td class="memItemLeft" align="right" valign="top"><a id="a062f50b0bdee0968200a3361fd67a56f"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1file__stat.html#a062f50b0bdee0968200a3361fd67a56f">sync</a> (const std::string &amp;fullpath)</td></tr>
-<tr class="memdesc:a062f50b0bdee0968200a3361fd67a56f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the fullpath member, then syncs. <br /></td></tr>
-<tr class="separator:a062f50b0bdee0968200a3361fd67a56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa4b0cae0da271d739f4153a5ce3687d"><td class="memItemLeft" align="right" valign="top"><a id="aaa4b0cae0da271d739f4153a5ce3687d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1file__stat.html#aaa4b0cae0da271d739f4153a5ce3687d">sync</a> (const std::string &amp;<a class="el" href="classwex_1_1path.html">path</a>)</td></tr>
+<tr class="memdesc:aaa4b0cae0da271d739f4153a5ce3687d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the path member, then syncs. <br /></td></tr>
+<tr class="separator:aaa4b0cae0da271d739f4153a5ce3687d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Adds is_ok to the stat base class, several methods to get/update on the stat members, and sync to sync the stat from disk. </p>

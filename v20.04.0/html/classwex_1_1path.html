@@ -69,7 +69,7 @@ Public Types</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5fc1e28d62e916e857337f3fa4f38d7e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1path.html#a5fc1e28d62e916e857337f3fa4f38d7e">path</a> (const std::filesystem::path &amp;p=std::filesystem::path(), status_t t=0)</td></tr>
-<tr class="memdesc:a5fc1e28d62e916e857337f3fa4f38d7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor taking a path.  <a href="classwex_1_1path.html#a5fc1e28d62e916e857337f3fa4f38d7e">More...</a><br /></td></tr>
+<tr class="memdesc:a5fc1e28d62e916e857337f3fa4f38d7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Others.  <a href="classwex_1_1path.html#a5fc1e28d62e916e857337f3fa4f38d7e">More...</a><br /></td></tr>
 <tr class="separator:a5fc1e28d62e916e857337f3fa4f38d7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8a738a9e87b97fe1347c67bf8569b8b8"><td class="memItemLeft" align="right" valign="top"><a id="a8a738a9e87b97fe1347c67bf8569b8b8"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1path.html#a8a738a9e87b97fe1347c67bf8569b8b8">path</a> (const std::string &amp;<a class="el" href="classwex_1_1path.html">path</a>)</td></tr>
@@ -193,9 +193,8 @@ const auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ab62a32ce9c5a1549b7cc7d5f68f4e63a"><td class="memItemLeft" align="right" valign="top"><a id="ab62a32ce9c5a1549b7cc7d5f68f4e63a"></a>
-static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1path.html#ab62a32ce9c5a1549b7cc7d5f68f4e63a">current</a> ()</td></tr>
-<tr class="memdesc:ab62a32ce9c5a1549b7cc7d5f68f4e63a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns current path. <br /></td></tr>
+<tr class="memitem:ab62a32ce9c5a1549b7cc7d5f68f4e63a"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1path.html#ab62a32ce9c5a1549b7cc7d5f68f4e63a">current</a> ()</td></tr>
+<tr class="memdesc:ab62a32ce9c5a1549b7cc7d5f68f4e63a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Static interface.  <a href="classwex_1_1path.html#ab62a32ce9c5a1549b7cc7d5f68f4e63a">More...</a><br /></td></tr>
 <tr class="separator:ab62a32ce9c5a1549b7cc7d5f68f4e63a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2166da9f4cfa9aca279465b29288433"><td class="memItemLeft" align="right" valign="top"><a id="ae2166da9f4cfa9aca279465b29288433"></a>
 static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1path.html#ae2166da9f4cfa9aca279465b29288433">current</a> (const std::string &amp;<a class="el" href="classwex_1_1path.html">path</a>)</td></tr>
@@ -254,8 +253,8 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
       </table>
 </div><div class="memdoc">
 
-<p>Default constructor taking a path. </p>
-<p>If path is empty, it saves the current path, and when destructed restores it to current. </p>
+<p>Others. </p>
+<p>Default constructor taking a path. If path is empty, it saves the current path, and when destructed restores it to current. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">p</td><td>the path </td></tr>
@@ -267,6 +266,34 @@ static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab62a32ce9c5a1549b7cc7d5f68f4e63a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab62a32ce9c5a1549b7cc7d5f68f4e63a">&#9670;&nbsp;</a></span>current()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string wex::path::current </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Static interface. </p>
+<p>Returns current path. </p>
+
+</div>
+</div>
 <a id="acf355299a49c6cfac8bf03b11b239fd9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acf355299a49c6cfac8bf03b11b239fd9">&#9670;&nbsp;</a></span>open_mime()</h2>
 
