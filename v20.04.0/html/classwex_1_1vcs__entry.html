@@ -80,10 +80,6 @@ Public Member Functions</h2></td></tr>
 const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1vcs__entry.html#a691f1a18e5f2ac7ea032fd55f1629206">admin_dir</a> () const</td></tr>
 <tr class="memdesc:a691f1a18e5f2ac7ea032fd55f1629206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the administrative directory. <br /></td></tr>
 <tr class="separator:a691f1a18e5f2ac7ea032fd55f1629206"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b40940e78ae26376cbd18a2cc51fae9"><td class="memItemLeft" align="right" valign="top"><a id="a0b40940e78ae26376cbd18a2cc51fae9"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1vcs__entry.html#a0b40940e78ae26376cbd18a2cc51fae9">admin_dir_is_toplevel</a> () const</td></tr>
-<tr class="memdesc:a0b40940e78ae26376cbd18a2cc51fae9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if admin dir is only at top level. <br /></td></tr>
-<tr class="separator:a0b40940e78ae26376cbd18a2cc51fae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acbadca12d8b1610adb1703affdf03bf1"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1vcs__entry.html#acbadca12d8b1610adb1703affdf03bf1">build_menu</a> (int base_id, <a class="el" href="classwex_1_1menu.html">menu</a> *<a class="el" href="classwex_1_1menu.html">menu</a>) const</td></tr>
 <tr class="memdesc:acbadca12d8b1610adb1703affdf03bf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Builds a menu from all vcs commands.  <a href="classwex_1_1vcs__entry.html#acbadca12d8b1610adb1703affdf03bf1">More...</a><br /></td></tr>
 <tr class="separator:acbadca12d8b1610adb1703affdf03bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,10 +209,10 @@ Additional Inherited Members</h2></td></tr>
 static auto *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1process.html#a60b184d1438a4c8f64709de0c02a65f9">get_shell</a> ()</td></tr>
 <tr class="memdesc:a60b184d1438a4c8f64709de0c02a65f9 inherit pub_static_methods_classwex_1_1process"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the shell component (might be nullptr if prepare_output is not yet invoked). <br /></td></tr>
 <tr class="separator:a60b184d1438a4c8f64709de0c02a65f9 inherit pub_static_methods_classwex_1_1process"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3f898f2fe767470a8f617ffe703c24e inherit pub_static_methods_classwex_1_1process"><td class="memItemLeft" align="right" valign="top"><a id="ad3f898f2fe767470a8f617ffe703c24e"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1process.html#ad3f898f2fe767470a8f617ffe703c24e">prepare_output</a> (wxWindow *parent)</td></tr>
-<tr class="memdesc:ad3f898f2fe767470a8f617ffe703c24e inherit pub_static_methods_classwex_1_1process"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the shell component. <br /></td></tr>
-<tr class="separator:ad3f898f2fe767470a8f617ffe703c24e inherit pub_static_methods_classwex_1_1process"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7edbb960ffb5c25219a0c7a3dab5d32 inherit pub_static_methods_classwex_1_1process"><td class="memItemLeft" align="right" valign="top"><a id="aa7edbb960ffb5c25219a0c7a3dab5d32"></a>
+static <a class="el" href="classwex_1_1shell.html">shell</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classwex_1_1process.html#aa7edbb960ffb5c25219a0c7a3dab5d32">prepare_output</a> (wxWindow *parent)</td></tr>
+<tr class="memdesc:aa7edbb960ffb5c25219a0c7a3dab5d32 inherit pub_static_methods_classwex_1_1process"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct the shell component, and returns it. <br /></td></tr>
+<tr class="separator:aa7edbb960ffb5c25219a0c7a3dab5d32 inherit pub_static_methods_classwex_1_1process"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class collects a single vcs. </p>
