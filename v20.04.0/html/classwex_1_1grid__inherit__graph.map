@@ -1,0 +1,5 @@
+<map id="wex::grid" name="wex::grid">
+<area shape="rect" id="node1" title="Offers popup menu with copy/paste, printing." alt="" coords="120,5,195,31"/>
+<area shape="rect" id="node2" href="$classwex_1_1grid__statistics.html" title=" " alt="" coords="5,79,139,117"/>
+<area shape="rect" id="node3" href="$classwex_1_1grid__statistics.html" title="Helper class for adding clear menu to the grid, and calling clear for the statistics." alt="" coords="162,85,326,111"/>
+</map>
