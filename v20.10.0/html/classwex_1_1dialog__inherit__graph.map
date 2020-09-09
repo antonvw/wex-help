@@ -1,0 +1,4 @@
+<map id="wex::dialog" name="wex::dialog">
+<area shape="rect" id="node1" title="Offers a general dialog, with a separated button sizer at the bottom." alt="" coords="36,5,124,32"/>
+<area shape="rect" id="node2" href="$classwex_1_1stc__entry__dialog.html" title="Offers an stc as a dialog (like wxTextEntryDialog)." alt="" coords="5,80,155,107"/>
+</map>

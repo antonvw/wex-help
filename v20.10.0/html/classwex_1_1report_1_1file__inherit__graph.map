@@ -1,0 +1,7 @@
+<map id="wex::report::file" name="wex::report::file">
+<area shape="rect" id="node1" title="Combines report::listview and file, giving you a list control with file synchronization support." alt="" coords="83,229,195,256"/>
+<area shape="rect" id="node2" href="$classwex_1_1report_1_1listview.html" title="Adds a report::frame to listview." alt="" coords="5,155,144,181"/>
+<area shape="rect" id="node3" href="$classwex_1_1listview.html" title="Adds printing, popup menu, images, columns and items to wxListView." alt="" coords="25,80,124,107"/>
+<area shape="rect" id="node4" href="$classwex_1_1core_1_1listview.html" title="Offers interface to listview." alt="" coords="9,5,140,32"/>
+<area shape="rect" id="node5" href="$classwex_1_1file.html" title="Offers several methods to read / write files." alt="" coords="169,155,239,181"/>
+</map>
