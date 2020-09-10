@@ -1,0 +1,5 @@
+<map id="wex::managed_frame" name="wex::managed_frame">
+<area shape="rect" id="node1" title="Offers an aui managed frame with a notebook multiple document interface, used by the notebook classes..." alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node3" href="$classwex_1_1report_1_1frame.html" title="Adds file and project history support to managed_frame." alt="" coords="15,155,143,181"/>
+<area shape="rect" id="node2" href="$classwex_1_1frame.html" title="Offers a frame with easy statusbar methods, find/replace, and allows for file dropping." alt="" coords="35,5,122,32"/>
+</map>

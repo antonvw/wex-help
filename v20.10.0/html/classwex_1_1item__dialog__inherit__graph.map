@@ -1,0 +1,4 @@
+<map id="wex::item_dialog" name="wex::item_dialog">
+<area shape="rect" id="node1" title="Offers an item dialog." alt="" coords="13,95,133,121"/>
+<area shape="rect" id="node2" href="$classwex_1_1item__template__dialog.html" title=" " alt="" coords="5,5,141,47"/>
+</map>
