@@ -1,0 +1,4 @@
+<map id="wex::process" name="wex::process">
+<area shape="rect" id="node1" title="Offers a process, capturing execution output." alt="" coords="11,5,111,32"/>
+<area shape="rect" id="node2" href="$classwex_1_1vcs__entry.html" title="This class collects a single vcs." alt="" coords="5,80,116,107"/>
+</map>
