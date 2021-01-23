@@ -1,0 +1,5 @@
+<map id="wex::report::tool_dir" name="wex::report::tool_dir">
+<area shape="rect" id="node1" title="Offers a dir with tool support." alt="" coords="5,155,143,181"/>
+<area shape="rect" id="node2" href="$classwex_1_1dir.html" title="Offers find_files method." alt="" coords="40,80,108,107"/>
+<area shape="rect" id="node3" href="$classwex_1_1interruptible.html" title="Offers methods to start, stop things." alt="" coords="13,5,135,32"/>
+</map>
