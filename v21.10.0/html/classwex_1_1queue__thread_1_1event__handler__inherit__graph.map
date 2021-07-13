@@ -1,0 +1,5 @@
+<map id="wex::queue_thread&lt; T &gt;::event_handler" name="wex::queue_thread&lt; T &gt;::event_handler">
+<area shape="rect" id="node1" title="This event handler class must be subclassed and passed in to the queue thread constructor (in order t..." alt="" coords="5,5,145,47"/>
+<area shape="rect" id="node2" href="$classwex_1_1del_1_1listview.html" title="Adds a del::frame to listview." alt="" coords="14,95,137,121"/>
+<area shape="rect" id="node3" href="$classwex_1_1del_1_1file.html" title="Combines del::listview and file, giving you a list control with file synchronization support." alt="" coords="27,169,123,196"/>
+</map>

@@ -7,7 +7,7 @@ export WEX=${HOME}/wex/
 current=$(pwd)
 
 # version directory where pages are generated
-cd v21.04.0
+cd v21.10.0
 
 # now run doxygen
 doxygen ../Doxyfile

@@ -1,0 +1,7 @@
+<map id="wex::del::file" name="wex::del::file">
+<area shape="rect" id="node1" title="Combines del::listview and file, giving you a list control with file synchronization support." alt="" coords="91,229,187,256"/>
+<area shape="rect" id="node2" href="$classwex_1_1del_1_1listview.html" title="Adds a del::frame to listview." alt="" coords="17,155,140,181"/>
+<area shape="rect" id="node3" href="$classwex_1_1listview.html" title="Adds printing, popup menu, images, columns and items to wxListView." alt="" coords="29,80,128,107"/>
+<area shape="rect" id="node4" href="$classwex_1_1factory_1_1listview.html" title="Offers interface to listview." alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node5" href="$classwex_1_1file.html" title="Offers several methods to read / write files." alt="" coords="165,155,235,181"/>
+</map>
