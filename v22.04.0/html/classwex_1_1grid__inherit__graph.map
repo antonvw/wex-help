@@ -1,0 +1,5 @@
+<map id="wex::grid" name="wex::grid">
+<area shape="rect" id="node1" title="Offers popup menu with copy/paste, printing." alt="" coords="49,80,125,107"/>
+<area shape="rect" id="node3" href="$classwex_1_1grid__statistics.html" title="Offers a class to show statistics on a grid." alt="" coords="5,155,169,181"/>
+<area shape="rect" id="node2" href="$classwex_1_1factory_1_1grid.html" title="Offers interface to wxGrid." alt="" coords="26,5,149,32"/>
+</map>
