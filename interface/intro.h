@@ -26,11 +26,13 @@ digraph libs {
   otl       [URL="http://otl.sourceforge.net/"]
   pugixml   [URL="https://github.com/zeux/pugixml"]
   rfw       [URL="https://robotframework.org"]
-  wxWidgets [URL="http://docs.wxwidgets.org/3.1"]
+  wxWidgets [URL="http://docs.wxwidgets.org/3.2"]
 
   del     [shape=box, tooltip="this library contains integration classes, also performs final integraton of factory classes, and invokes static initialization and exit methods"];
+  vcs     [shape=box, tooltip="this library contains vcs and debug classes"];
   stc     [shape=box, tooltip="this library contains stc classes and functions"];
-  vi      [shape=box, tooltip="this library contains vi (ex) classes and functions"];
+  vi      [shape=box, tooltip="this library contains vi classes and functions"];
+  ex      [shape=box, tooltip="this library contains ex classes and functions"];
   ui      [shape=box, tooltip="this library contains ui classes (frame, grid, list, menu, notebook, statusbar), and functions"];
   common  [shape=box, tooltip="this library contains common classes"];
   data    [shape=box, tooltip="this library contains data injection classes"];
@@ -40,19 +42,23 @@ digraph libs {
   test_app     [label="test-app",     fontsize=9, shape=diamond, color=grey];
   sample       [label="sample",       fontsize=9, shape=diamond, color=grey];
   test_del     [label="test-del",     fontsize=9, shape=diamond, color=grey];
+  test_vcs     [label="test-vcs",     fontsize=9, shape=diamond, color=grey];
   test_stc     [label="test-stc",     fontsize=9, shape=diamond, color=grey];
   test_vi      [label="test-vi",      fontsize=9, shape=diamond, color=grey];
+  test_ex      [label="test-ex",      fontsize=9, shape=diamond, color=grey];
   test_ui      [label="test-ui",      fontsize=9, shape=diamond, color=grey];
   test_common  [label="test-common",  fontsize=9, shape=diamond, color=grey];
   test_data    [label="test-data",    fontsize=9, shape=diamond, color=grey];
   test_factory [label="test-factory", fontsize=9, shape=diamond, color=grey];
   test_core    [label="test-core",    fontsize=9, shape=diamond, color=grey];
   
-  {rank=same test_del test_stc test_vi test_ui test_common test_data test_factory test_core }
+  {rank=same test_del test_vcs test_stc test_vi test_ex test_ui test_common test_data test_factory test_core }
   
-  del     -> stc;
+  del     -> vcs;
+  vcs     -> stc;
   stc     -> vi;
-  vi      -> {ui, ctags};
+  vi      -> ex;
+  ex      -> {ui, ctags};
   ui      -> {common, otl};
   common  -> data;
   data    -> factory;
@@ -62,8 +68,10 @@ digraph libs {
   test_app     -> {sample, rfw} [style=dashed, color=grey];
   sample       -> del [style=dashed, color=grey];
   test_del     -> {del, doctest} [style=dashed, color=grey];
+  test_vcs     -> {vcs, doctest} [style=dashed, color=grey];
   test_stc     -> {stc, doctest} [style=dashed, color=grey];
   test_vi      -> {vi, doctest} [style=dashed, color=grey];
+  test_ex      -> {ex, doctest} [style=dashed, color=grey];
   test_ui      -> {ui, doctest} [style=dashed, color=grey];
   test_common  -> {common, doctest} [style=dashed, color=grey];
   test_data    -> {data, doctest} [style=dashed, color=grey];
