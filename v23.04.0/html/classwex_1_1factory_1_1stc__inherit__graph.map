@@ -1,0 +1,7 @@
+<map id="wex::factory::stc" name="wex::factory::stc">
+<area shape="rect" id="node1" title="Offers a basic styled text ctrl." alt="" coords="7,93,127,119"/>
+<area shape="rect" id="node3" href="$classwex_1_1syntax_1_1stc.html" title="Offers a factory stc with lexer support (syntax colouring, folding)." alt="" coords="8,167,127,192"/>
+<area shape="rect" id="node2" href="$classwex_1_1factory_1_1text__window.html" title="Offers a text window." alt="" coords="5,5,129,45"/>
+<area shape="rect" id="node4" href="$classwex_1_1stc.html" title="Offers a syntax stc with:" alt="" coords="31,240,103,265"/>
+<area shape="rect" id="node5" href="$classwex_1_1shell.html" title="This class offers a stc with support for commands." alt="" coords="27,313,108,339"/>
+</map>
