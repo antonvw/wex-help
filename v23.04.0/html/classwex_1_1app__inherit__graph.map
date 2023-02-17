@@ -1,0 +1,4 @@
+<map id="wex::app" name="wex::app">
+<area shape="rect" id="node1" title="Offers the application, with lib specific init and exit, and provides access to the locale and the ca..." alt="" coords="18,5,93,31"/>
+<area shape="rect" id="node2" href="$classwex_1_1del_1_1app.html" title="Offers the application, with lib specific init and exit, Your application should be derived from this..." alt="" coords="5,79,105,104"/>
+</map>

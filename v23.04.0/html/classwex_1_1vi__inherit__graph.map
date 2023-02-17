@@ -1,4 +1,4 @@
 <map id="wex::vi" name="wex::vi">
-<area shape="rect" id="node1" title="Offers a class that extends factory::stc with vi behaviour." alt="" coords="7,79,71,104"/>
+<area shape="rect" id="node1" title="Offers a class that extends ex class with vi behaviour." alt="" coords="7,79,71,104"/>
 <area shape="rect" id="node2" href="$classwex_1_1ex.html" title="Offers a class that adds ex editor to wex::syntax::stc." alt="" coords="5,5,73,31"/>
 </map>
