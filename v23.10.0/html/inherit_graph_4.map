@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classwex_1_1app.html" title="Offers the application, with lib specific init and exit, and provides access to the locale and the ca..." alt="" coords="37,5,111,31"/>
+<area shape="rect" id="Node000001" href="$classwex_1_1del_1_1app.html" title="Offers the application, with lib specific init and exit, Your application should be derived from this..." alt="" coords="193,5,293,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="126,16,193,16,193,21,126,21"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1test_1_1app.html" title="Offers the doctest based test application, with lib specific init and exit." alt="" coords="191,55,295,80"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="126,30,197,52,195,57,125,36"/>
+<area shape="rect" id="Node000003" href="$classwex_1_1test_1_1doctester.html" title="Offers the doctest based class info." alt="" coords="5,55,143,80"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="158,65,190,65,190,70,158,70"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="wex::shell" name="wex::shell">
+<area shape="rect" id="Node000001" title="This class offers a stc with support for commands." alt="" coords="27,315,107,341"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1stc.html" title="Offers a syntax stc with:" alt="" coords="31,241,103,267"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,282,70,315,64,315,64,282"/>
+<area shape="rect" id="Node000003" href="$classwex_1_1syntax_1_1stc.html" title="Offers a factory stc with lexer support (syntax colouring, folding)." alt="" coords="8,168,126,193"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="70,208,70,241,64,241,64,208"/>
+<area shape="rect" id="Node000004" href="$classwex_1_1factory_1_1stc.html" title="Offers a basic styled text ctrl." alt="" coords="7,94,127,120"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="70,134,70,167,64,167,64,134"/>
+<area shape="rect" id="Node000005" href="$classwex_1_1factory_1_1text__window.html" title="Offers a text window." alt="" coords="5,5,129,46"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="70,61,70,93,64,93,64,61"/>
+</map>
