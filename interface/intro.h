@@ -2,7 +2,7 @@
 // Name:      intro.h
 // Purpose:   Interface file containing Doxyfile reference for mainpage
 // Author:    Anton van Wezenbeek
-// Copyright: (c) 2017-2022 Anton van Wezenbeek
+// Copyright: (c) 2017-2023 Anton van Wezenbeek
 ////////////////////////////////////////////////////////////////////////////////
 
 /*!
@@ -39,6 +39,7 @@ digraph libs {
   data    [label="libwex-data", shape=box, fontsize=8, tooltip="this library contains data injection classes"];
   syntax  [label="libwex-syntax", shape=box, fontsize=8, tooltip="this library contains syntax lexer classes"];
   factory [label="libwex-factory", shape=box, fontsize=8, tooltip="this library contains factory classes, with virtual methods for derived classes"];
+  test    [label="libwex-test", shape=box, fontsize=8, tooltip="this library contains test classes and functions"];
   core    [label="libwex-core", shape=box, fontsize=8, tooltip="this library contains core classes and functions, and does not use any other wex libraries"];
   
   test_app     [label="wex-test-app",     fontsize=8, shape=diamond, color=grey];
@@ -56,9 +57,11 @@ digraph libs {
   test_factory [label="wex-test-factory", fontsize=8, shape=diamond, color=grey];
   test_core    [label="wex-test-core",    fontsize=8, shape=diamond, color=grey];
   
-  {rank=same test_del test_vcs test_stc test_vi test_ex test_ui 
+  {group=test_del test_vcs test_stc test_vi test_ex test_ui 
    test_common test_data test_syntax test_factory test_core test_app}
-  
+   
+  {rank=same factory test}
+   
   del     -> vcs;
   vcs     -> stc;
   stc     -> vi;
@@ -70,22 +73,23 @@ digraph libs {
   data    -> syntax;
   syntax  -> factory;
   factory -> core;
+  test    -> {core, doctest};
   core    -> {wxWidgets, boost, pugixml};
   
   test_app     -> {sample, rfw} [style=dashed, color=grey];
   sample       -> del [style=dashed, color=grey];
-  test_del     -> {del, doctest} [style=dashed, color=grey];
-  test_vcs     -> {vcs, doctest} [style=dashed, color=grey];
-  test_stc     -> {stc, doctest} [style=dashed, color=grey];
-  test_vi      -> {vi, doctest} [style=dashed, color=grey];
-  test_ex      -> {ex, doctest} [style=dashed, color=grey];
-  test_ctags   -> {ctags, doctest} [style=dashed, color=grey];
-  test_ui      -> {ui, doctest} [style=dashed, color=grey];
-  test_common  -> {common, doctest} [style=dashed, color=grey];
-  test_data    -> {data, doctest} [style=dashed, color=grey];
-  test_syntax  -> {syntax, doctest} [style=dashed, color=grey];
-  test_factory -> {factory, doctest} [style=dashed, color=grey];
-  test_core    -> {core, doctest} [style=dashed, color=grey];
+  test_del     -> {del, test} [style=dashed, color=grey];
+  test_vcs     -> {vcs, test} [style=dashed, color=grey];
+  test_stc     -> {stc, test} [style=dashed, color=grey];
+  test_vi      -> {vi, test} [style=dashed, color=grey];
+  test_ex      -> {ex, test} [style=dashed, color=grey];
+  test_ctags   -> {ctags, test} [style=dashed, color=grey];
+  test_ui      -> {ui, test} [style=dashed, color=grey];
+  test_common  -> {common, test} [style=dashed, color=grey];
+  test_data    -> {data, test} [style=dashed, color=grey];
+  test_syntax  -> {syntax, test} [style=dashed, color=grey];
+  test_factory -> {factory, test} [style=dashed, color=grey];
+  test_core    -> {core, test} [style=dashed, color=grey];
  }
 \enddot
 */

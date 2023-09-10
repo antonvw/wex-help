@@ -1,0 +1,5 @@
+<map id="wex::item_template_dialog&lt; T &gt;" name="wex::item_template_dialog&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Offers a dialog template to set several items." alt="" coords="5,79,141,120"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1dialog.html" title="Offers a general dialog, with a separated button sizer at the bottom." alt="" coords="29,5,117,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="76,46,76,79,70,79,70,46"/>
+</map>
