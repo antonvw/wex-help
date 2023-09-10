@@ -15,7 +15,7 @@ in wxStyledTextCtrl derived classes.
 
 <p>
 For build instructions see 
-<a href="https://github.com/antonvw/wex/blob/v22.04.0/README.md">README</a>.
+<a href="https://github.com/antonvw/wex/blob/v23.10.0/README.md">README</a>.
 </p>
 
 \dot
