@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classwex_1_1file.html" title="Offers several methods to read / write files." alt="" coords="370,55,440,80"/>
+<area shape="rect" id="Node000001" href="$classwex_1_1del_1_1file.html" title="Combines del::listview and file, giving you a list control with file synchronization support." alt="" coords="514,5,610,31"/>
+<area shape="poly" id="edge24_Node000000_Node000001" title=" " alt="" coords="454,49,518,29,520,34,456,55"/>
+<area shape="rect" id="Node000005" href="$classwex_1_1stc__file.html" title="Adds file read and write to stc." alt="" coords="514,55,610,80"/>
+<area shape="poly" id="edge25_Node000000_Node000005" title=" " alt="" coords="456,65,514,65,514,70,456,70"/>
+<area shape="rect" id="Node000004" href="$classwex_1_1factory_1_1listview.html" title="Offers interface to listview." alt="" coords="5,5,151,31"/>
+<area shape="rect" id="Node000003" href="$classwex_1_1listview.html" title="Adds printing, popup menu, images, columns and items to wxListView." alt="" coords="199,5,296,31"/>
+<area shape="poly" id="edge26_Node000004_Node000003" title=" " alt="" coords="166,16,198,16,198,21,166,21"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1del_1_1listview.html" title="Adds a del::frame to listview." alt="" coords="344,5,466,31"/>
+<area shape="poly" id="edge27_Node000003_Node000002" title=" " alt="" coords="312,16,344,16,344,21,312,21"/>
+<area shape="poly" id="edge28_Node000002_Node000001" title=" " alt="" coords="482,16,514,16,514,21,482,21"/>
+</map>

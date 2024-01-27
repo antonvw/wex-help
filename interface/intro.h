@@ -2,7 +2,7 @@
 // Name:      intro.h
 // Purpose:   Interface file containing Doxyfile reference for mainpage
 // Author:    Anton van Wezenbeek
-// Copyright: (c) 2017-2023 Anton van Wezenbeek
+// Copyright: (c) 2017-2024 Anton van Wezenbeek
 ////////////////////////////////////////////////////////////////////////////////
 
 /*!
@@ -15,7 +15,7 @@ in wxStyledTextCtrl derived classes.
 
 <p>
 For build instructions see 
-<a href="https://github.com/antonvw/wex/blob/v23.10.0/README.md">README</a>.
+<a href="https://github.com/antonvw/wex/blob/v24.04.0/README.md">README</a>.
 </p>
 
 \dot
@@ -26,7 +26,7 @@ digraph libs {
   otl       [URL="http://otl.sourceforge.net/"]
   pugixml   [URL="https://github.com/zeux/pugixml"]
   rfw       [URL="https://robotframework.org"]
-  wxWidgets [URL="http://docs.wxwidgets.org/3.2"]
+  wxWidgets [URL="http://docs.wxwidgets.org/latest"]
 
   del     [label="libwex-del", shape=box, fontsize=8, tooltip="this library contains integration classes, also performs final integraton of factory classes, and invokes static initialization and exit methods"];
   vcs     [label="libwex-vcs", shape=box, fontsize=8, tooltip="this library contains vcs and debug classes"];
