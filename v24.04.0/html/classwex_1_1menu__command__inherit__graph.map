@@ -1,0 +1,5 @@
+<map id="wex::menu_command" name="wex::menu_command">
+<area shape="rect" id="Node000001" title="This class contains a single menu command." alt="" coords="5,5,155,31"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1vcs__command.html" title="This class contains a single vcs command." alt="" coords="11,79,149,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,46,83,79,77,79,77,46"/>
+</map>

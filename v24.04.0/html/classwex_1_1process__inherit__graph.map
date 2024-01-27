@@ -1,0 +1,7 @@
+<map id="wex::process" name="wex::process">
+<area shape="rect" id="Node000001" title="Offers a process, capturing execution output." alt="" coords="29,79,129,105"/>
+<area shape="rect" id="Node000003" href="$classwex_1_1vcs__entry.html" title="This class collects a single vcs." alt="" coords="24,153,134,178"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="82,119,82,152,76,152,76,119"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1factory_1_1process.html" title="This class offers core process." alt="" coords="5,5,153,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,46,82,79,76,79,76,46"/>
+</map>

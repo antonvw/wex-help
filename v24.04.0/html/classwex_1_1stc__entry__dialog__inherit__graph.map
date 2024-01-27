@@ -1,0 +1,5 @@
+<map id="wex::stc_entry_dialog" name="wex::stc_entry_dialog">
+<area shape="rect" id="Node000001" title="Offers an stc as a dialog (like wxTextEntryDialog)." alt="" coords="5,79,154,105"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1dialog.html" title="Offers a general dialog, with a separated button sizer at the bottom." alt="" coords="36,5,123,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,46,82,79,77,79,77,46"/>
+</map>
