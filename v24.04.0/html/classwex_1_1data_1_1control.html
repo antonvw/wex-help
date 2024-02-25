@@ -118,9 +118,9 @@ const auto&#160;</td><td class="memItemRight" valign="bottom"><b>find_flags</b> 
 <tr class="memitem:afb4853242f1df26e17f055bc3f8fc4b3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classwex_1_1data_1_1control.html">control</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="#afb4853242f1df26e17f055bc3f8fc4b3">flags</a> (const std::bitset&lt; N &gt; &amp;flags, std::bitset&lt; N &gt; &amp;result, <a class="el" href="#a745fe929d73e28ab4730bcd7eb906280">action_t</a> action=<a class="el" href="#a745fe929d73e28ab4730bcd7eb906280af1b782528335010b6634fe42429acb62">SET</a>)</td></tr>
 <tr class="memdesc:afb4853242f1df26e17f055bc3f8fc4b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets specified flags.  <br /></td></tr>
 <tr class="separator:afb4853242f1df26e17f055bc3f8fc4b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3ed3e41d2a5ccb9525787bddaedd01f" id="r_ae3ed3e41d2a5ccb9525787bddaedd01f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae3ed3e41d2a5ccb9525787bddaedd01f">inject</a> (std::function&lt; bool(void)&gt; <a class="el" href="#a4711e01597a0372e2c0455d4c3662123">line</a>=nullptr, std::function&lt; bool(void)&gt; <a class="el" href="#a17a598f7183834b079002aa1d5bec122">col</a>=nullptr, std::function&lt; bool(void)&gt; <a class="el" href="classwex_1_1data_1_1find.html">find</a>=nullptr, std::function&lt; bool(void)&gt; <a class="el" href="#a97b19529a7d09a50f6e4ad431d7504ad">command</a>=nullptr) const</td></tr>
-<tr class="memdesc:ae3ed3e41d2a5ccb9525787bddaedd01f"><td class="mdescLeft">&#160;</td><td class="mdescRight">injects data.  <br /></td></tr>
-<tr class="separator:ae3ed3e41d2a5ccb9525787bddaedd01f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00f4b70d79201dc36e8e56ed56133168" id="r_a00f4b70d79201dc36e8e56ed56133168"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00f4b70d79201dc36e8e56ed56133168">inject</a> (const std::function&lt; bool(void)&gt; &amp;<a class="el" href="#a4711e01597a0372e2c0455d4c3662123">line</a>=nullptr, const std::function&lt; bool(void)&gt; &amp;<a class="el" href="#a17a598f7183834b079002aa1d5bec122">col</a>=nullptr, const std::function&lt; bool(void)&gt; &amp;<a class="el" href="classwex_1_1data_1_1find.html">find</a>=nullptr, const std::function&lt; bool(void)&gt; &amp;<a class="el" href="#a97b19529a7d09a50f6e4ad431d7504ad">command</a>=nullptr) const</td></tr>
+<tr class="memdesc:a00f4b70d79201dc36e8e56ed56133168"><td class="mdescLeft">&#160;</td><td class="mdescRight">injects data.  <br /></td></tr>
+<tr class="separator:a00f4b70d79201dc36e8e56ed56133168"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb1253568d9f164447d5909392e24258" id="r_aeb1253568d9f164447d5909392e24258"><td class="memItemLeft" align="right" valign="top"><a id="aeb1253568d9f164447d5909392e24258" name="aeb1253568d9f164447d5909392e24258"></a>
 const auto&#160;</td><td class="memItemRight" valign="bottom"><b>is_required</b> () const</td></tr>
 <tr class="memdesc:aeb1253568d9f164447d5909392e24258"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns required. <br /></td></tr>
@@ -290,8 +290,8 @@ template&lt;std::size_t N&gt; </div>
 
 </div>
 </div>
-<a id="ae3ed3e41d2a5ccb9525787bddaedd01f" name="ae3ed3e41d2a5ccb9525787bddaedd01f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3ed3e41d2a5ccb9525787bddaedd01f">&#9670;&#160;</a></span>inject()</h2>
+<a id="a00f4b70d79201dc36e8e56ed56133168" name="a00f4b70d79201dc36e8e56ed56133168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00f4b70d79201dc36e8e56ed56133168">&#9670;&#160;</a></span>inject()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -299,22 +299,22 @@ template&lt;std::size_t N&gt; </div>
         <tr>
           <td class="memname">bool wex::data::control::inject </td>
           <td>(</td>
-          <td class="paramtype">std::function&lt; bool(void)&gt;</td>          <td class="paramname"><span class="paramname"><em>line</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </span></td>
+          <td class="paramtype">const std::function&lt; bool(void)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>line</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; bool(void)&gt;</td>          <td class="paramname"><span class="paramname"><em>col</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </span></td>
+          <td class="paramtype">const std::function&lt; bool(void)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>col</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; bool(void)&gt;</td>          <td class="paramname"><span class="paramname"><em>find</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </span></td>
+          <td class="paramtype">const std::function&lt; bool(void)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>find</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span>, </span></td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::function&lt; bool(void)&gt;</td>          <td class="paramname"><span class="paramname"><em>command</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></span>&#160;) const</td>
+          <td class="paramtype">const std::function&lt; bool(void)&gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>command</em><span class="paramdefsep"> = </span><span class="paramdefval">nullptr</span></span>&#160;) const</td>
         </tr>
       </table>
 </div><div class="memdoc">

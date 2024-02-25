@@ -62,22 +62,22 @@ Public Member Functions</h2></td></tr>
 &#160;</td><td class="memItemRight" valign="bottom"><b>bind</b> (wxEvtHandler *evt)</td></tr>
 <tr class="memdesc:a88a186d5c94d215edd0c1d8d42610376"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. <br /></td></tr>
 <tr class="separator:a88a186d5c94d215edd0c1d8d42610376"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61a1e39eb506d11c65aff21882a0e841" id="r_a61a1e39eb506d11c65aff21882a0e841"><td class="memItemLeft" align="right" valign="top"><a id="a61a1e39eb506d11c65aff21882a0e841" name="a61a1e39eb506d11c65aff21882a0e841"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>command</b> (std::vector&lt; std::pair&lt; std::function&lt; void(wxCommandEvent &amp;)&gt;, int &gt; &gt;)</td></tr>
-<tr class="memdesc:a61a1e39eb506d11c65aff21882a0e841"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds command events to handler. <br /></td></tr>
-<tr class="separator:a61a1e39eb506d11c65aff21882a0e841"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b3e806a1ff9805e383c3921743f1595" id="r_a4b3e806a1ff9805e383c3921743f1595"><td class="memItemLeft" align="right" valign="top"><a id="a4b3e806a1ff9805e383c3921743f1595" name="a4b3e806a1ff9805e383c3921743f1595"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>command</b> (std::vector&lt; std::tuple&lt; std::function&lt; void(wxCommandEvent &amp;)&gt;, int, int &gt; &gt;)</td></tr>
-<tr class="memdesc:a4b3e806a1ff9805e383c3921743f1595"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds a range of command events to handler. <br /></td></tr>
-<tr class="separator:a4b3e806a1ff9805e383c3921743f1595"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a658edfe7c5d50bba64af24f7bdbc999c" id="r_a658edfe7c5d50bba64af24f7bdbc999c"><td class="memItemLeft" align="right" valign="top"><a id="a658edfe7c5d50bba64af24f7bdbc999c" name="a658edfe7c5d50bba64af24f7bdbc999c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>frd</b> (wxFindReplaceData *frd, std::function&lt; void(const std::string &amp;, bool)&gt; f)</td></tr>
-<tr class="memdesc:a658edfe7c5d50bba64af24f7bdbc999c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds find replace data to handler. <br /></td></tr>
-<tr class="separator:a658edfe7c5d50bba64af24f7bdbc999c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01af6a8addba0f0cdac5cfb004e05a68" id="r_a01af6a8addba0f0cdac5cfb004e05a68"><td class="memItemLeft" align="right" valign="top"><a id="a01af6a8addba0f0cdac5cfb004e05a68" name="a01af6a8addba0f0cdac5cfb004e05a68"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>ui</b> (std::vector&lt; std::pair&lt; std::function&lt; void(wxUpdateUIEvent &amp;)&gt;, int &gt; &gt;)</td></tr>
-<tr class="memdesc:a01af6a8addba0f0cdac5cfb004e05a68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds update events to handler. <br /></td></tr>
-<tr class="separator:a01af6a8addba0f0cdac5cfb004e05a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba2c1f8f4cd2d55d65f941038abf071c" id="r_aba2c1f8f4cd2d55d65f941038abf071c"><td class="memItemLeft" align="right" valign="top"><a id="aba2c1f8f4cd2d55d65f941038abf071c" name="aba2c1f8f4cd2d55d65f941038abf071c"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>command</b> (const std::vector&lt; std::pair&lt; std::function&lt; void(wxCommandEvent &amp;)&gt;, int &gt; &gt; &amp;)</td></tr>
+<tr class="memdesc:aba2c1f8f4cd2d55d65f941038abf071c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds command events to handler. <br /></td></tr>
+<tr class="separator:aba2c1f8f4cd2d55d65f941038abf071c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ab5c426f4347a7cace2d4cfefde227d" id="r_a3ab5c426f4347a7cace2d4cfefde227d"><td class="memItemLeft" align="right" valign="top"><a id="a3ab5c426f4347a7cace2d4cfefde227d" name="a3ab5c426f4347a7cace2d4cfefde227d"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>command</b> (const std::vector&lt; std::tuple&lt; std::function&lt; void(wxCommandEvent &amp;)&gt;, int, int &gt; &gt; &amp;)</td></tr>
+<tr class="memdesc:a3ab5c426f4347a7cace2d4cfefde227d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds a range of command events to handler. <br /></td></tr>
+<tr class="separator:a3ab5c426f4347a7cace2d4cfefde227d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fb91d7c2d0f408c1864a48db838b535" id="r_a6fb91d7c2d0f408c1864a48db838b535"><td class="memItemLeft" align="right" valign="top"><a id="a6fb91d7c2d0f408c1864a48db838b535" name="a6fb91d7c2d0f408c1864a48db838b535"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>frd</b> (wxFindReplaceData *frd, const std::function&lt; void(const std::string &amp;, bool)&gt; &amp;f)</td></tr>
+<tr class="memdesc:a6fb91d7c2d0f408c1864a48db838b535"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds find replace data to handler. <br /></td></tr>
+<tr class="separator:a6fb91d7c2d0f408c1864a48db838b535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96b6379b90fc18661da0faf6ba4c08f1" id="r_a96b6379b90fc18661da0faf6ba4c08f1"><td class="memItemLeft" align="right" valign="top"><a id="a96b6379b90fc18661da0faf6ba4c08f1" name="a96b6379b90fc18661da0faf6ba4c08f1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>ui</b> (const std::vector&lt; std::pair&lt; std::function&lt; void(wxUpdateUIEvent &amp;)&gt;, int &gt; &gt; &amp;)</td></tr>
+<tr class="memdesc:a96b6379b90fc18661da0faf6ba4c08f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Binds update events to handler. <br /></td></tr>
+<tr class="separator:a96b6379b90fc18661da0faf6ba4c08f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Offers a class to bind events to a handler. </p>
