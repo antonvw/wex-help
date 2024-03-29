@@ -74,17 +74,17 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae76a98582857f448e447afd9d1f14f92" id="r_ae76a98582857f448e447afd9d1f14f92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae76a98582857f448e447afd9d1f14f92">append_text</a> (const std::string &amp;text)</td></tr>
 <tr class="memdesc:ae76a98582857f448e447afd9d1f14f92"><td class="mdescLeft">&#160;</td><td class="mdescRight">If hex mode is on, appends hex mode lines to stc component.  <br /></td></tr>
 <tr class="separator:ae76a98582857f448e447afd9d1f14f92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8858bf0789327af2536b4860a3b8e0b" id="r_aa8858bf0789327af2536b4860a3b8e0b"><td class="memItemLeft" align="right" valign="top">const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8858bf0789327af2536b4860a3b8e0b">buffer</a> () const</td></tr>
+<tr class="memdesc:aa8858bf0789327af2536b4860a3b8e0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the buffer.  <br /></td></tr>
+<tr class="separator:aa8858bf0789327af2536b4860a3b8e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00c945a50106ca4e17a282142f671107" id="r_a00c945a50106ca4e17a282142f671107"><td class="memItemLeft" align="right" valign="top"><a id="a00c945a50106ca4e17a282142f671107" name="a00c945a50106ca4e17a282142f671107"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>control_char_dialog</b> (const std::string &amp;caption)</td></tr>
 <tr class="memdesc:a00c945a50106ca4e17a282142f671107"><td class="mdescLeft">&#160;</td><td class="mdescRight">Shows a control char dialog. <br /></td></tr>
 <tr class="separator:a00c945a50106ca4e17a282142f671107"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59fdc09ea0934d856529611a0390745b" id="r_a59fdc09ea0934d856529611a0390745b"><td class="memItemLeft" align="right" valign="top"><a id="a59fdc09ea0934d856529611a0390745b" name="a59fdc09ea0934d856529611a0390745b"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>erase</b> (int count=1, int pos=-1)</td></tr>
-<tr class="memdesc:a59fdc09ea0934d856529611a0390745b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes chars at current index at current line for both ascii and hex field. <br /></td></tr>
-<tr class="separator:a59fdc09ea0934d856529611a0390745b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8858bf0789327af2536b4860a3b8e0b" id="r_aa8858bf0789327af2536b4860a3b8e0b"><td class="memItemLeft" align="right" valign="top">const auto &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa8858bf0789327af2536b4860a3b8e0b">buffer</a> () const</td></tr>
-<tr class="memdesc:aa8858bf0789327af2536b4860a3b8e0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the buffer.  <br /></td></tr>
-<tr class="separator:aa8858bf0789327af2536b4860a3b8e0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadf4e1768960d98112747005025a1147" id="r_aadf4e1768960d98112747005025a1147"><td class="memItemLeft" align="right" valign="top"><a id="aadf4e1768960d98112747005025a1147" name="aadf4e1768960d98112747005025a1147"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>erase</b> (int count=1, int pos=wxSTC_INVALID_POSITION)</td></tr>
+<tr class="memdesc:aadf4e1768960d98112747005025a1147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deletes chars at current index at current line for both ascii and hex field. <br /></td></tr>
+<tr class="separator:aadf4e1768960d98112747005025a1147"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f53520efc2e35a53ecd84c0d5537f02" id="r_a8f53520efc2e35a53ecd84c0d5537f02"><td class="memItemLeft" align="right" valign="top"><a id="a8f53520efc2e35a53ecd84c0d5537f02" name="a8f53520efc2e35a53ecd84c0d5537f02"></a>
 const std::string&#160;</td><td class="memItemRight" valign="bottom"><b>get_info</b> ()</td></tr>
 <tr class="memdesc:a8f53520efc2e35a53ecd84c0d5537f02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns info about current index, depending on which field is current. <br /></td></tr>
@@ -101,12 +101,12 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>highlight_other</b> (
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>highlight_other</b> (int pos)</td></tr>
 <tr class="memdesc:a1880e9d43006bd284aee516ef3d79f85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Highlights the corresponding char for the other field. <br /></td></tr>
 <tr class="separator:a1880e9d43006bd284aee516ef3d79f85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a256b1b19ad89a3f55bf6647142431071" id="r_a256b1b19ad89a3f55bf6647142431071"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a256b1b19ad89a3f55bf6647142431071">insert</a> (const std::string &amp;text, int pos=-1)</td></tr>
-<tr class="memdesc:a256b1b19ad89a3f55bf6647142431071"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts text at position.  <br /></td></tr>
-<tr class="separator:a256b1b19ad89a3f55bf6647142431071"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64f456578143e32341078145d6bb8248" id="r_a64f456578143e32341078145d6bb8248"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64f456578143e32341078145d6bb8248">replace</a> (char c, int pos=-1)</td></tr>
-<tr class="memdesc:a64f456578143e32341078145d6bb8248"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces current line at current index (if pos -1) with char for both ascii and hex field.  <br /></td></tr>
-<tr class="separator:a64f456578143e32341078145d6bb8248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26d31d4fe3ed400b7cc5810ade4b6c6b" id="r_a26d31d4fe3ed400b7cc5810ade4b6c6b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a26d31d4fe3ed400b7cc5810ade4b6c6b">insert</a> (const std::string &amp;text, int pos=wxSTC_INVALID_POSITION)</td></tr>
+<tr class="memdesc:a26d31d4fe3ed400b7cc5810ade4b6c6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts text at position.  <br /></td></tr>
+<tr class="separator:a26d31d4fe3ed400b7cc5810ade4b6c6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff60d36ebb8acfc05fb18be461119497" id="r_aff60d36ebb8acfc05fb18be461119497"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff60d36ebb8acfc05fb18be461119497">replace</a> (char c, int pos=wxSTC_INVALID_POSITION)</td></tr>
+<tr class="memdesc:aff60d36ebb8acfc05fb18be461119497"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces current line at current index (if pos wxSTC_INVALID_POSITION) with char for both ascii and hex field.  <br /></td></tr>
+<tr class="separator:aff60d36ebb8acfc05fb18be461119497"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a425cbc6a42385a610da7e75688ac826f" id="r_a425cbc6a42385a610da7e75688ac826f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a425cbc6a42385a610da7e75688ac826f">replace_target</a> (const std::string &amp;replacement, bool settext=true)</td></tr>
 <tr class="memdesc:a425cbc6a42385a610da7e75688ac826f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces target with replacement text.  <br /></td></tr>
 <tr class="separator:a425cbc6a42385a610da7e75688ac826f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -250,8 +250,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a256b1b19ad89a3f55bf6647142431071" name="a256b1b19ad89a3f55bf6647142431071"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a256b1b19ad89a3f55bf6647142431071">&#9670;&#160;</a></span>insert()</h2>
+<a id="a26d31d4fe3ed400b7cc5810ade4b6c6b" name="a26d31d4fe3ed400b7cc5810ade4b6c6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26d31d4fe3ed400b7cc5810ade4b6c6b">&#9670;&#160;</a></span>insert()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,7 +264,7 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>pos</em><span class="paramdefsep"> = </span><span class="paramdefval">-1</span></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>pos</em><span class="paramdefsep"> = </span><span class="paramdefval">wxSTC_INVALID_POSITION</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -274,8 +274,8 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a64f456578143e32341078145d6bb8248" name="a64f456578143e32341078145d6bb8248"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64f456578143e32341078145d6bb8248">&#9670;&#160;</a></span>replace()</h2>
+<a id="aff60d36ebb8acfc05fb18be461119497" name="aff60d36ebb8acfc05fb18be461119497"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff60d36ebb8acfc05fb18be461119497">&#9670;&#160;</a></span>replace()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,12 +288,12 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>pos</em><span class="paramdefsep"> = </span><span class="paramdefval">-1</span></span>&#160;)</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>pos</em><span class="paramdefsep"> = </span><span class="paramdefval">wxSTC_INVALID_POSITION</span></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Replaces current line at current index (if pos -1) with char for both ascii and hex field. </p>
+<p>Replaces current line at current index (if pos wxSTC_INVALID_POSITION) with char for both ascii and hex field. </p>
 <p>Otherwise at specified pos. </p>
 
 </div>
