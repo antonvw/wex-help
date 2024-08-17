@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classwex_1_1factory_1_1grid.html" title="Offers interface to wxGrid." alt="" coords="5,5,140,33"/>
+<area shape="rect" id="Node000001" href="$classwex_1_1grid.html" title="Offers popup menu with copy/paste, printing." alt="" coords="224,5,305,33"/>
+<area shape="poly" id="edge14_Node000000_Node000001" title=" " alt="" coords="155,17,223,17,223,22,155,22"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1grid__statistics.html" title="Offers a class to show statistics on a grid." alt="" coords="389,32,574,60"/>
+<area shape="poly" id="edge15_Node000001_Node000002" title=" " alt="" coords="321,23,389,32,388,37,320,29"/>
+<area shape="rect" id="Node000003" href="$classwex_1_1statistics.html" title="Offers base statistics." alt="" coords="188,57,341,85"/>
+<area shape="poly" id="edge16_Node000003_Node000002" title=" " alt="" coords="356,58,388,54,389,59,357,63"/>
+</map>

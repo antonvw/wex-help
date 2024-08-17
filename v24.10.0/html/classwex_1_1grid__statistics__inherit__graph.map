@@ -1,0 +1,9 @@
+<map id="wex::grid_statistics&lt; T &gt;" name="wex::grid_statistics&lt; T &gt;">
+<area shape="rect" id="Node000001" title="Offers a class to show statistics on a grid." alt="" coords="51,157,236,184"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1grid.html" title="Offers popup menu with copy/paste, printing." alt="" coords="32,81,113,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="97,118,133,154,129,158,94,122"/>
+<area shape="rect" id="Node000003" href="$classwex_1_1factory_1_1grid.html" title="Offers interface to wxGrid." alt="" coords="5,5,140,33"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="75,49,75,81,70,81,70,49"/>
+<area shape="rect" id="Node000004" href="$classwex_1_1statistics.html" title="Offers base statistics." alt="" coords="137,81,291,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="193,122,158,158,154,154,189,118"/>
+</map>

@@ -1,0 +1,9 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classwex_1_1menu__commands.html" title=" " alt="" coords="213,5,385,50"/>
+<area shape="rect" id="Node000001" href="$classwex_1_1vcs__entry.html" title="This class collects a single vcs." alt="" coords="433,45,552,72"/>
+<area shape="poly" id="edge35_Node000000_Node000001" title=" " alt="" coords="401,41,433,46,432,52,400,46"/>
+<area shape="rect" id="Node000003" href="$classwex_1_1factory_1_1process.html" title="This class offers core process." alt="" coords="5,74,165,102"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1process.html" title="Offers a process, capturing execution output." alt="" coords="246,74,352,102"/>
+<area shape="poly" id="edge36_Node000003_Node000002" title=" " alt="" coords="180,85,245,85,245,90,180,90"/>
+<area shape="poly" id="edge37_Node000002_Node000001" title=" " alt="" coords="367,75,432,65,433,70,368,80"/>
+</map>
