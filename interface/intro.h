@@ -23,6 +23,7 @@ digraph libs {
   boost     [URL="https://www.boost.org"]
   ctags_uni [label="ctags-universal", URL="https://github.com/universal-ctags/ctags"]
   doctest   [URL="https://github.com/onqtam/doctest"]
+  MaterialDesignArtProvider [URL="https://github.com/perazz/wxMaterialDesignArtProvider"]
   otl       [URL="http://otl.sourceforge.net/"]
   pugixml   [URL="https://github.com/zeux/pugixml"]
   rfw       [URL="https://robotframework.org"]
@@ -74,7 +75,7 @@ digraph libs {
   syntax  -> factory;
   factory -> core;
   test    -> {core, doctest};
-  core    -> {wxWidgets, boost, pugixml};
+  core    -> {wxWidgets, boost, pugixml, MaterialDesignArtProvider};
   
   test_app     -> {sample, rfw} [style=dashed, color=grey];
   sample       -> del [style=dashed, color=grey];

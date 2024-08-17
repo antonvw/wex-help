@@ -1,0 +1,7 @@
+<map id="wex::presentation" name="wex::presentation">
+<area shape="rect" id="Node000001" title="This class defines our scintilla presentations." alt="" coords="58,5,197,33"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1indicator.html" title="This class defines our scintilla indicators." alt="" coords="5,81,119,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="108,46,76,82,72,79,104,43"/>
+<area shape="rect" id="Node000003" href="$classwex_1_1marker.html" title="This class defines our scintilla markers." alt="" coords="143,81,245,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,43,184,79,180,82,147,46"/>
+</map>
