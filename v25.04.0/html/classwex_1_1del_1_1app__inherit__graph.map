@@ -1,0 +1,5 @@
+<map id="wex::del::app" name="wex::del::app">
+<area shape="rect" id="Node000001" title="Offers the application, with lib specific init and exit, Your application should be derived from this..." alt="" coords="5,81,114,109"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1app.html" title="Offers the application, with lib specific init and exit, and provides access to the locale and the ca..." alt="" coords="19,5,100,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,49,62,81,57,81,57,49"/>
+</map>
