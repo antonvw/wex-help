@@ -2,7 +2,7 @@
 // Name:      intro.h
 // Purpose:   Interface file containing Doxyfile reference for mainpage
 // Author:    Anton van Wezenbeek
-// Copyright: (c) 2017-2024 Anton van Wezenbeek
+// Copyright: (c) 2017-2025 Anton van Wezenbeek
 ////////////////////////////////////////////////////////////////////////////////
 
 /*!
@@ -15,7 +15,7 @@ in wxStyledTextCtrl derived classes.
 
 <p>
 For build instructions see 
-<a href="https://github.com/antonvw/wex/blob/v24.04.0/README.md">README</a>.
+<a href="https://github.com/antonvw/wex/blob/v25.04.0/README.md">README</a>.
 </p>
 
 \dot
@@ -59,7 +59,9 @@ digraph libs {
   test_core    [label="wex-test-core",    fontsize=8, shape=diamond, color=grey];
   
   {group=test_del test_vcs test_stc test_vi test_ex test_ui 
-   test_common test_data test_syntax test_factory test_core test_app}
+   test_common test_data test_syntax test_factory test_core test_app test}
+   
+  {group=ctags ui common}
    
   {rank=same factory test}
    
@@ -69,13 +71,13 @@ digraph libs {
   vi      -> ex;
   ex      -> ctags;
   ctags   -> {ui, ctags_uni};
-  ui      -> {common, otl};
+  ui      -> {common, otl, MaterialDesignArtProvider};
   common  -> data;
   data    -> syntax;
   syntax  -> factory;
   factory -> core;
   test    -> {core, doctest};
-  core    -> {wxWidgets, boost, pugixml, MaterialDesignArtProvider};
+  core    -> {wxWidgets, boost, pugixml};
   
   test_app     -> {sample, rfw} [style=dashed, color=grey];
   sample       -> del [style=dashed, color=grey];

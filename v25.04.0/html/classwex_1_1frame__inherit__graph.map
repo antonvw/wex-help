@@ -1,0 +1,7 @@
+<map id="wex::frame" name="wex::frame">
+<area shape="rect" id="Node000001" title="Offers an aui managed frame with a notebook multiple document interface, used by the notebook classes..." alt="" coords="32,81,127,109"/>
+<area shape="rect" id="Node000003" href="$classwex_1_1del_1_1frame.html" title="Adds file and project history support to frame." alt="" coords="18,157,141,184"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="82,124,82,156,77,156,77,124"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1factory_1_1frame.html" title="Offers a frame with easy statusbar methods, find/replace, and allows for file dropping." alt="" coords="5,5,154,33"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="82,49,82,81,77,81,77,49"/>
+</map>

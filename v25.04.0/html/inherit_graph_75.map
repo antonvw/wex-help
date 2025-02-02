@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classwex_1_1presentation.html" title="This class defines our scintilla presentations." alt="" coords="5,32,144,60"/>
+<area shape="rect" id="Node000001" href="$classwex_1_1indicator.html" title="This class defines our scintilla indicators." alt="" coords="192,5,305,33"/>
+<area shape="poly" id="edge40_Node000000_Node000001" title=" " alt="" coords="158,30,191,25,192,30,159,36"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1marker.html" title="This class defines our scintilla markers." alt="" coords="197,57,300,85"/>
+<area shape="poly" id="edge41_Node000000_Node000002" title=" " alt="" coords="159,55,197,61,196,66,159,61"/>
+</map>

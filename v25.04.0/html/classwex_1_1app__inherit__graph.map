@@ -1,0 +1,7 @@
+<map id="wex::app" name="wex::app">
+<area shape="rect" id="Node000001" title="Offers the application, with lib specific init and exit, and provides access to the locale and the ca..." alt="" coords="86,5,166,33"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1del_1_1app.html" title="Offers the application, with lib specific init and exit, Your application should be derived from this..." alt="" coords="5,81,114,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,46,73,82,69,79,102,43"/>
+<area shape="rect" id="Node000003" href="$classwex_1_1test_1_1app.html" title="Offers the doctest based test application, with lib specific init and exit." alt="" coords="138,81,251,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="151,43,184,79,180,82,147,46"/>
+</map>
