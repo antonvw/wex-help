@@ -241,6 +241,9 @@ virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>vcs_dir_exist
 <tr class="memitem:a22a352e13019fb407335a9d6d3ae1985" id="r_a22a352e13019fb407335a9d6d3ae1985"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a22a352e13019fb407335a9d6d3ae1985">vcs_execute</a> (int event_id, const std::vector&lt; <a class="el" href="classwex_1_1path.html">wex::path</a> &gt; &amp;paths, const <a class="el" href="classwex_1_1data_1_1window.html">data::window</a> &amp;arg=<a class="el" href="classwex_1_1data_1_1window.html">data::window</a>())</td></tr>
 <tr class="memdesc:a22a352e13019fb407335a9d6d3ae1985"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes vcs.  <br /></td></tr>
 <tr class="separator:a22a352e13019fb407335a9d6d3ae1985"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef3c4a87705f850fbff3b0c6c6ac0a91" id="r_aef3c4a87705f850fbff3b0c6c6ac0a91"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef3c4a87705f850fbff3b0c6c6ac0a91">vcs_execute</a> (const std::string &amp;command, const std::vector&lt; <a class="el" href="classwex_1_1path.html">wex::path</a> &gt; &amp;paths, const <a class="el" href="classwex_1_1data_1_1window.html">data::window</a> &amp;arg=<a class="el" href="classwex_1_1data_1_1window.html">data::window</a>())</td></tr>
+<tr class="memdesc:aef3c4a87705f850fbff3b0c6c6ac0a91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes vcs.  <br /></td></tr>
+<tr class="separator:aef3c4a87705f850fbff3b0c6c6ac0a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afce71060505dc0dc140dee237767320b" id="r_afce71060505dc0dc140dee237767320b"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afce71060505dc0dc140dee237767320b">vi_exec_command</a> (<a class="el" href="classwex_1_1ex__command.html">ex_command</a> &amp;command)</td></tr>
 <tr class="memdesc:afce71060505dc0dc140dee237767320b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Executes a ex command.  <br /></td></tr>
 <tr class="separator:afce71060505dc0dc140dee237767320b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1023,8 +1026,54 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMenuBar</b> (wxMen
 
 </div>
 </div>
+<a id="aef3c4a87705f850fbff3b0c6c6ac0a91" name="aef3c4a87705f850fbff3b0c6c6ac0a91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef3c4a87705f850fbff3b0c6c6ac0a91">&#9670;&#160;</a></span>vcs_execute() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool wex::frame::vcs_execute </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;</td>          <td class="paramname"><span class="paramname"><em>command</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; <a class="el" href="classwex_1_1path.html">wex::path</a> &gt; &amp;</td>          <td class="paramname"><span class="paramname"><em>paths</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classwex_1_1data_1_1window.html">data::window</a> &amp;</td>          <td class="paramname"><span class="paramname"><em>arg</em></span><span class="paramdefsep"> = </span><span class="paramdefval"><a class="el" href="classwex_1_1data_1_1window.html">data::window</a>()</span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Executes vcs. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">command</td><td>the vcs command  </td></tr>
+    <tr><td class="paramname">paths</td><td>the paths  </td></tr>
+    <tr><td class="paramname">arg</td><td>window data </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Reimplemented in <a class="el" href="classwex_1_1del_1_1frame.html#a542ac94f63e4c83bc97a1ed9da0e94a7">wex::del::frame</a>.</p>
+
+</div>
+</div>
 <a id="a22a352e13019fb407335a9d6d3ae1985" name="a22a352e13019fb407335a9d6d3ae1985"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22a352e13019fb407335a9d6d3ae1985">&#9670;&#160;</a></span>vcs_execute()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a22a352e13019fb407335a9d6d3ae1985">&#9670;&#160;</a></span>vcs_execute() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
