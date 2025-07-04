@@ -15,7 +15,7 @@ in wxStyledTextCtrl derived classes.
 
 <p>
 For build instructions see 
-<a href="https://github.com/antonvw/wex/blob/v25.04.0/README.md">README</a>.
+<a href="https://github.com/antonvw/wex/blob/v25.10.0/README.md">README</a>.
 </p>
 
 \dot
@@ -24,7 +24,6 @@ digraph libs {
   ctags_uni [label="ctags-universal", URL="https://github.com/universal-ctags/ctags"]
   doctest   [URL="https://github.com/onqtam/doctest"]
   MaterialDesignArtProvider [URL="https://github.com/perazz/wxMaterialDesignArtProvider"]
-  otl       [URL="http://otl.sourceforge.net/"]
   pugixml   [URL="https://github.com/zeux/pugixml"]
   rfw       [URL="https://robotframework.org"]
   wxWidgets [URL="http://docs.wxwidgets.org/latest"]
@@ -71,7 +70,7 @@ digraph libs {
   vi      -> ex;
   ex      -> ctags;
   ctags   -> {ui, ctags_uni};
-  ui      -> {common, otl, MaterialDesignArtProvider};
+  ui      -> {common, MaterialDesignArtProvider};
   common  -> data;
   data    -> syntax;
   syntax  -> factory;
