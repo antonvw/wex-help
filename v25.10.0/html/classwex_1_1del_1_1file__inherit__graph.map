@@ -1,0 +1,11 @@
+<map id="wex::del::file" name="wex::del::file">
+<area shape="rect" id="Node000001" title="Combines del::listview and file, giving you a list control with file synchronization support." alt="" coords="98,232,204,260"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1del_1_1listview.html" title="Adds a del::frame to listview." alt="" coords="18,157,153,184"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,194,141,230,137,234,105,198"/>
+<area shape="rect" id="Node000003" href="$classwex_1_1listview.html" title="Adds printing, popup menu, images, columns and items to wxListView." alt="" coords="32,81,139,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="88,124,88,156,83,156,83,124"/>
+<area shape="rect" id="Node000004" href="$classwex_1_1factory_1_1listview.html" title="Offers interface to listview." alt="" coords="5,5,166,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="88,49,88,81,83,81,83,49"/>
+<area shape="rect" id="Node000005" href="$classwex_1_1file.html" title="Offers several methods to read / write files." alt="" coords="178,157,255,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="197,198,164,234,160,230,193,194"/>
+</map>
