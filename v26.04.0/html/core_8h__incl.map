@@ -1,0 +1,9 @@
+<map id="wex/core/core.h" name="wex/core/core.h">
+<area shape="rect" id="Node000001" title=" " alt="" coords="37,5,162,33"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,81,47,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,35,52,72,48,68,84,32"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="70,81,128,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="102,34,102,65,97,65,97,34"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="152,81,214,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="116,32,159,69,155,73,113,36"/>
+</map>
