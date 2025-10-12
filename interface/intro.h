@@ -21,8 +21,8 @@ For build instructions see
 \dot
 digraph libs {
   boost     [URL="https://www.boost.org"]
+  catch2   [URL="https://github.com/catchorg/Catch2"]
   ctags_uni [label="ctags-universal", URL="https://github.com/universal-ctags/ctags"]
-  doctest   [URL="https://github.com/onqtam/doctest"]
   MaterialDesignArtProvider [URL="https://github.com/perazz/wxMaterialDesignArtProvider"]
   pugixml   [URL="https://github.com/zeux/pugixml"]
   rfw       [URL="https://robotframework.org"]
@@ -75,7 +75,7 @@ digraph libs {
   data    -> syntax;
   syntax  -> factory;
   factory -> core;
-  test    -> {core, doctest};
+  test    -> {core, catch2};
   core    -> {wxWidgets, boost, pugixml};
   
   test_app     -> {sample, rfw} [style=dashed, color=grey];
