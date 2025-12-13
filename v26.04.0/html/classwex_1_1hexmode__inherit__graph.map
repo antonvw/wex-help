@@ -1,5 +1,5 @@
 <map id="wex::hexmode" name="wex::hexmode">
-<area shape="rect" id="Node000001" title="Offers a hex mode." alt="" coords="32,81,149,109"/>
-<area shape="rect" id="Node000002" href="$classwex_1_1factory_1_1hexmode.html" title="Offers a hex mode view to stc component." alt="" coords="5,5,176,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="93,49,93,81,88,81,88,49"/>
+<area shape="rect" id="Node000001" title="Offers a hex mode." alt="" coords="5,323,149,593"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1factory_1_1hexmode.html" title="Offers a hex mode view to stc component." alt="" coords="6,5,149,275"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,287,80,324,75,323,77,292"/>
 </map>

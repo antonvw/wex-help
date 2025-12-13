@@ -1,11 +1,11 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classwex_1_1dialog.html" title="Offers a general dialog, with a separated button sizer at the bottom." alt="" coords="5,83,102,111"/>
-<area shape="rect" id="Node000001" href="$classwex_1_1item__template__dialog.html" title=" " alt="" coords="155,5,308,50"/>
-<area shape="poly" id="edge4_Node000000_Node000001" title=" " alt="" coords="104,75,171,48,173,53,106,80"/>
-<area shape="rect" id="Node000003" href="$classwex_1_1item__template__dialog.html" title="Offers a dialog template to set several items." alt="" coords="155,75,308,119"/>
-<area shape="poly" id="edge6_Node000000_Node000003" title=" " alt="" coords="118,94,155,94,155,100,118,100"/>
-<area shape="rect" id="Node000004" href="$classwex_1_1stc__entry__dialog.html" title="Offers an stc as a dialog (like wxTextEntryDialog)." alt="" coords="150,143,313,171"/>
-<area shape="poly" id="edge7_Node000000_Node000004" title=" " alt="" coords="108,114,151,129,184,140,182,145,149,134,106,119"/>
-<area shape="rect" id="Node000002" href="$classwex_1_1item__dialog.html" title="Offers an item dialog." alt="" coords="361,14,494,42"/>
-<area shape="poly" id="edge5_Node000001_Node000002" title=" " alt="" coords="323,25,361,25,361,30,323,30"/>
+<area shape="rect" id="Node000000" href="$classwex_1_1dialog.html" title="Offers a general dialog, with a separated button sizer at the bottom." alt="" coords="5,78,93,104"/>
+<area shape="rect" id="Node000001" href="$classwex_1_1item__template__dialog.html" title=" " alt="" coords="147,5,282,46"/>
+<area shape="poly" id="edge5_Node000000_Node000001" title=" " alt="" coords="96,70,163,45,160,48,99,74"/>
+<area shape="rect" id="Node000003" href="$classwex_1_1item__template__dialog.html" title="Offers a dialog template to set several items." alt="" coords="147,71,282,111"/>
+<area shape="poly" id="edge7_Node000000_Node000003" title=" " alt="" coords="108,88,149,90,144,92,109,94"/>
+<area shape="rect" id="Node000004" href="$classwex_1_1stc__entry__dialog.html" title="Offers an stc as a dialog (like wxTextEntryDialog)." alt="" coords="141,136,289,161"/>
+<area shape="poly" id="edge8_Node000000_Node000004" title=" " alt="" coords="103,107,142,120,178,135,172,135,140,126,102,112"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1item__dialog.html" title="Offers an item dialog." alt="" coords="337,13,456,38"/>
+<area shape="poly" id="edge6_Node000001_Node000002" title=" " alt="" coords="298,23,339,25,334,26,299,28"/>
 </map>

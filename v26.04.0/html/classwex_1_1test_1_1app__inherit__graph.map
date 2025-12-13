@@ -1,7 +1,7 @@
 <map id="wex::test::app" name="wex::test::app">
-<area shape="rect" id="Node000001" title="Offers the unittest based test application, with lib specific init and exit." alt="" coords="56,81,169,109"/>
-<area shape="rect" id="Node000002" href="$classwex_1_1app.html" title="Offers the application, with lib specific init and exit, and provides access to the locale and the ca..." alt="" coords="5,5,86,33"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="70,43,102,79,98,82,66,46"/>
-<area shape="rect" id="Node000003" href="$classwex_1_1test_1_1unittest.html" title="Offers the session based class info." alt="" coords="109,5,248,33"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="159,46,126,82,122,79,155,43"/>
+<area shape="rect" id="Node000001" title="Offers the unittest based test application, with lib specific init and exit." alt="" coords="81,181,175,267"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1app.html" title="Offers the application, with lib specific init and exit, and provides access to the locale and the ca..." alt="" coords="5,5,114,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,144,112,181,106,181,93,149"/>
+<area shape="rect" id="Node000003" href="$classwex_1_1test_1_1unittest.html" title="Offers the session based class info." alt="" coords="138,5,254,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,144,149,182,144,179,160,148"/>
 </map>

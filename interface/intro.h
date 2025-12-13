@@ -15,15 +15,15 @@ in wxStyledTextCtrl derived classes.
 
 <p>
 For build instructions see 
-<a href="https://github.com/antonvw/wex/blob/v25.10.0/README.md">README</a>.
+<a href="https://github.com/antonvw/wex/blob/v26.04.0/README.md">README</a>.
 </p>
 
 \dot
 digraph libs {
   boost     [URL="https://www.boost.org"]
-  catch2   [URL="https://github.com/catchorg/Catch2"]
+  catch2    [URL="https://github.com/catchorg/Catch2"]
   ctags_uni [label="ctags-universal", URL="https://github.com/universal-ctags/ctags"]
-  MaterialDesignArtProvider [URL="https://github.com/perazz/wxMaterialDesignArtProvider"]
+  mdap      [label="MaterialDesignArtProvider", URL="https://github.com/perazz/wxMaterialDesignArtProvider"]
   pugixml   [URL="https://github.com/zeux/pugixml"]
   rfw       [URL="https://robotframework.org"]
   wxWidgets [URL="http://docs.wxwidgets.org/latest"]
@@ -57,25 +57,31 @@ digraph libs {
   test_factory [label="wex-test-factory", fontsize=8, shape=diamond, color=grey];
   test_core    [label="wex-test-core",    fontsize=8, shape=diamond, color=grey];
   
-  {group=test_del test_vcs test_stc test_vi test_ex test_ui 
-   test_common test_data test_syntax test_factory test_core test_app test}
+  {rank=same; del test_del}
+  {rank=same; vcs test_vcs}
+  {rank=same; stc test_stc}
+  {rank=same; vi test_vi}
+  {rank=same; ex test_ex}
+  {rank=same; ctags test_ctags}
+  {rank=same; ui test_ui}
+  {rank=same; common test_common}
+  {rank=same; data test_data}
+  {rank=same; syntax test_syntax}
+  {rank=same; factory test_factory}
+  {rank=same; core test_core}
    
-  {group=ctags ui common}
-   
-  {rank=same factory test}
-   
-  del     -> vcs;
-  vcs     -> stc;
-  stc     -> vi;
-  vi      -> ex;
-  ex      -> ctags;
-  ctags   -> {ui, ctags_uni};
-  ui      -> {common, MaterialDesignArtProvider};
-  common  -> data;
-  data    -> syntax;
-  syntax  -> factory;
-  factory -> core;
-  test    -> {core, catch2};
+  del     -> vcs [weight=5];
+  vcs     -> stc [weight=5];
+  stc     -> vi [weight=5];
+  vi      -> ex [weight=5];
+  ex      -> ctags [weight=5];
+  ctags   -> {ui, ctags_uni} [weight=5];
+  ui      -> {common, mdap} [weight=5];
+  common  -> data [weight=5];
+  data    -> syntax [weight=5];
+  syntax  -> factory [weight=5];
+  factory -> core [weight=5];
+  test    -> catch2 [weight=5];
   core    -> {wxWidgets, boost, pugixml};
   
   test_app     -> {sample, rfw} [style=dashed, color=grey];
