@@ -1,5 +1,5 @@
 <map id="wex::test::unittest" name="wex::test::unittest">
-<area shape="rect" id="Node000001" title="Offers the session based class info." alt="" coords="5,5,145,33"/>
-<area shape="rect" id="Node000002" href="$classwex_1_1test_1_1app.html" title="Offers the unittest based test application, with lib specific init and exit." alt="" coords="18,81,132,109"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="78,49,78,81,72,81,72,49"/>
+<area shape="rect" id="Node000001" title="Offers the session based class info." alt="" coords="5,5,121,133"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1test_1_1app.html" title="Offers the unittest based test application, with lib specific init and exit." alt="" coords="16,181,110,267"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="64,145,66,181,61,180,62,150"/>
 </map>
