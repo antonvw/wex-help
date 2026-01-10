@@ -81,7 +81,7 @@ digraph libs {
   data    -> syntax [weight=5];
   syntax  -> factory [weight=5];
   factory -> core [weight=5];
-  test    -> catch2 [weight=5];
+  test    -> {core, catch2} [weight=5];
   core    -> {wxWidgets, boost, pugixml};
   
   test_app     -> {sample, rfw} [style=dashed, color=grey];
