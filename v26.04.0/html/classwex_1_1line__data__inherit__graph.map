@@ -1,5 +1,5 @@
 <map id="wex::line_data" name="wex::line_data">
-<area shape="rect" id="Node000001" title="Offers user data to be used by factory classes." alt="" coords="15,5,110,234"/>
-<area shape="rect" id="Node000002" href="$classwex_1_1data_1_1control.html" title="Offers user data to be used by ctrl classes (as listview, stc)." alt="" coords="5,282,120,552"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,247,65,283,60,282,62,252"/>
+<area shape="rect" id="Node000001" title="Offers user data to be used by factory classes." alt="" coords="18,5,113,234"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1data_1_1control.html" title="Offers user data to be used by ctrl classes (as listview, stc)." alt="" coords="5,282,126,552"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="66,247,68,283,63,282,66,252"/>
 </map>
