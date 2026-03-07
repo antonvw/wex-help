@@ -1,9 +1,9 @@
 <map id="wex::vcs_entry" name="wex::vcs_entry">
-<area shape="rect" id="Node000001" title="This class collects a single vcs." alt="" coords="93,620,209,951"/>
+<area shape="rect" id="Node000001" title="This class collects a single vcs." alt="" coords="93,620,209,971"/>
 <area shape="rect" id="Node000002" href="$classwex_1_1process.html" title="Offers a process, capturing execution output." alt="" coords="15,343,133,572"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="104,584,115,621,109,621,104,589"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,584,114,620,108,621,103,590"/>
 <area shape="rect" id="Node000003" href="$classwex_1_1factory_1_1process.html" title="This class offers core process." alt="" coords="5,5,142,295"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="74,308,76,344,71,343,74,313"/>
 <area shape="rect" id="Node000004" href="$classwex_1_1menu__commands.html" title=" " alt="" coords="157,356,302,560"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="203,572,193,621,188,620,201,577"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="204,572,194,622,189,620,202,577"/>
 </map>
