@@ -1,0 +1,7 @@
+<map id="wex::grid" name="wex::grid">
+<area shape="rect" id="Node000001" title="Offers popup menu with copy/paste, printing." alt="" coords="5,120,195,521"/>
+<area shape="rect" id="Node000003" href="$classwex_1_1grid__statistics.html" title="Offers a class to show statistics on a grid." alt="" coords="22,569,178,737"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="101,533,103,570,98,569,100,539"/>
+<area shape="rect" id="Node000002" href="$classwex_1_1factory_1_1grid.html" title="Offers interface to wxGrid." alt="" coords="44,5,156,72"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,84,103,120,98,120,100,89"/>
+</map>

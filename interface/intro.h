@@ -2,7 +2,7 @@
 // Name:      intro.h
 // Purpose:   Interface file containing Doxyfile reference for mainpage
 // Author:    Anton van Wezenbeek
-// Copyright: (c) 2017-2025 Anton van Wezenbeek
+// Copyright: (c) 2017-2026 Anton van Wezenbeek
 ////////////////////////////////////////////////////////////////////////////////
 
 /*!
@@ -15,18 +15,19 @@ in wxStyledTextCtrl derived classes.
 
 <p>
 For build instructions see 
-<a href="https://github.com/antonvw/wex/blob/v26.04.0/README.md">README</a>.
+<a href="https://github.com/antonvw/wex/blob/v26.10.0/README.md">README</a>.
 </p>
 
 \dot
 digraph libs {
-  boost     [URL="https://www.boost.org"]
-  catch2    [URL="https://github.com/catchorg/Catch2"]
-  ctags_uni [label="ctags-universal", URL="https://github.com/universal-ctags/ctags"]
-  mdap      [label="MaterialDesignArtProvider", URL="https://github.com/perazz/wxMaterialDesignArtProvider"]
-  pugixml   [URL="https://github.com/zeux/pugixml"]
-  rfw       [URL="https://robotframework.org"]
-  wxWidgets [URL="http://docs.wxwidgets.org/latest"]
+  boost      [URL="https://www.boost.org"]
+  catch2     [URL="https://github.com/catchorg/Catch2"]
+  ctags_uni  [label="ctags-universal", URL="https://github.com/universal-ctags/ctags"]
+  lsp_server [label="lsp-server", URL="https://microsoft.github.io/language-server-protocol"]
+  mdap       [label="MaterialDesignArtProvider", URL="https://github.com/perazz/wxMaterialDesignArtProvider"]
+  pugixml    [URL="https://github.com/zeux/pugixml"]
+  rfw        [URL="https://robotframework.org"]
+  wxWidgets  [URL="http://docs.wxwidgets.org/latest"]
 
   del     [label="libwex-del", shape=box, fontsize=8, tooltip="this library contains integration classes, also performs final integraton of factory classes, and invokes static initialization and exit methods"];
   vcs     [label="libwex-vcs", shape=box, fontsize=8, tooltip="this library contains vcs and debug classes"];
@@ -34,6 +35,7 @@ digraph libs {
   vi      [label="libwex-vi", shape=box, fontsize=8, tooltip="this library contains vi classes and functions"];
   ex      [label="libwex-ex", shape=box, fontsize=8, tooltip="this library contains ex classes and functions"];
   ctags   [label="libwex-ctags", shape=box, fontsize=8, tooltip="this library contains ctags classes and functions"];
+  lsp     [label="libwex-lsp", shape=box, fontsize=8, tooltip="this library contains lsp classes and functions"];
   ui      [label="libwex-ui", shape=box, fontsize=8, tooltip="this library contains ui classes (frame, grid, list, menu, notebook, statusbar), and functions"];
   common  [label="libwex-common", shape=box, fontsize=8, tooltip="this library contains common classes"];
   data    [label="libwex-data", shape=box, fontsize=8, tooltip="this library contains data injection classes"];
@@ -50,6 +52,7 @@ digraph libs {
   test_vi      [label="wex-test-vi",      fontsize=8, shape=diamond, color=grey];
   test_ex      [label="wex-test-ex",      fontsize=8, shape=diamond, color=grey];
   test_ctags   [label="wex-test-ctags",   fontsize=8, shape=diamond, color=grey];
+  test_lsp     [label="wex-test-lsp",     fontsize=8, shape=diamond, color=grey];
   test_ui      [label="wex-test-ui",      fontsize=8, shape=diamond, color=grey];
   test_common  [label="wex-test-common",  fontsize=8, shape=diamond, color=grey];
   test_data    [label="wex-test-data",    fontsize=8, shape=diamond, color=grey];
@@ -72,10 +75,11 @@ digraph libs {
    
   del     -> vcs [weight=5];
   vcs     -> stc [weight=5];
-  stc     -> vi [weight=5];
+  stc     -> {vi,lsp} [weight=5];
   vi      -> ex [weight=5];
   ex      -> ctags [weight=5];
   ctags   -> {ui, ctags_uni} [weight=5];
+  lsp     -> {ui, lsp_server} [weight=5];
   ui      -> {common, mdap} [weight=5];
   common  -> data [weight=5];
   data    -> syntax [weight=5];
@@ -92,6 +96,7 @@ digraph libs {
   test_vi      -> {vi, test} [style=dashed, color=grey];
   test_ex      -> {ex, test} [style=dashed, color=grey];
   test_ctags   -> {ctags, test} [style=dashed, color=grey];
+  test_lsp     -> {lsp, test} [style=dashed, color=grey];
   test_ui      -> {ui, test} [style=dashed, color=grey];
   test_common  -> {common, test} [style=dashed, color=grey];
   test_data    -> {data, test} [style=dashed, color=grey];
